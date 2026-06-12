@@ -345,7 +345,7 @@ function LockerPanel({
   const hasDosier = dosier && dosier.status === "OK" && dosier.foto && dosier.config;
 
   return (
-    <div className="flex max-h-[90vh] w-full max-w-lg flex-col rounded-t-2xl border border-border bg-surface-elevated shadow-2xl sm:rounded-xl">
+    <div className="flex max-h-[90vh] w-full max-w-2xl flex-col rounded-t-2xl border border-border bg-surface-elevated shadow-2xl sm:rounded-xl">
       <div className="flex items-start justify-between gap-4 border-b border-border p-5">
         <div className="flex-1">
           <div className="flex items-center gap-2">
