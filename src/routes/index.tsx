@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
 import leroyLogo from "@/assets/leroy_merlin.png.asset.json";
+import { useAuth } from "@/lib/auth";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -48,6 +49,7 @@ function lockerIconSvg() {
 }
 
 function Index() {
+  const { email, logout } = useAuth();
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInst = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
@@ -166,6 +168,27 @@ function Index() {
           <Stat label="Locations" value={locations.length} />
           <div className="h-6 w-px bg-border" />
           <Stat label="Lockers" value={totalLockers} />
+          <div className="h-6 w-px bg-border" />
+          <div className="flex items-center gap-2">
+            {email && (
+              <span className="hidden text-xs text-muted-foreground lg:inline" title={email}>
+                {email}
+              </span>
+            )}
+            <button
+              onClick={logout}
+              className="flex items-center gap-1.5 rounded-md border border-border bg-surface px-2.5 py-1.5 text-xs font-medium text-muted-foreground hover:bg-surface-elevated hover:text-primary"
+              aria-label="Cerrar sesión"
+              title="Cerrar sesión"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                <polyline points="16 17 21 12 16 7" />
+                <line x1="21" y1="12" x2="9" y2="12" />
+              </svg>
+              <span className="hidden sm:inline">Salir</span>
+            </button>
+          </div>
         </div>
       </header>
 
