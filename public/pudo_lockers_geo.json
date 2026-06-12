@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "LM ALBUFEIRA",
+    "tienda_oficial": "LEROY MERLIN Albufeira",
+    "direccion": "Estrada Nacional 125, Km. 68, Tavagueira-Guia, 8200-856 Albufeira",
+    "ciudad": "Albufeira",
+    "codigo_postal": "8200-856",
+    "lockers": [
+      {
+        "nombre": "LM ALBUFEIRA EXTERIOR",
+        "numero": 33,
+        "configuracion": "A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "mensalidade_eur": 241.68,
+        "TC": 1,
+        "A1": 0,
+        "A3": 4,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM ALBUFEIRA PALETS",
+        "numero": 34,
+        "configuracion": "TC/BL/BL",
+        "mensalidade_eur": 484.49,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 2,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 37.088241,
+    "lng": -8.2526339
+  },
+  {
+    "id": "LM ALFRAGIDE",
+    "tienda_oficial": "LEROY MERLIN Alfragide",
+    "direccion": "Avenida dos Cavaleiros 70, 2794-059 Carnaxide",
+    "ciudad": "Carnaxide",
+    "codigo_postal": "2794-059",
+    "lockers": [
+      {
+        "nombre": "LM ALFRAGIDE EXTERIOR A",
+        "numero": 6,
+        "configuracion": "1/1/1/1/3/3/3/3/3/TC/3/3/3/3/3/3/3/7/7",
+        "mensalidade_eur": 478.44,
+        "TC": 1,
+        "A1": 4,
+        "A3": 12,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM ALFRAGIDE EXTERIOR B",
+        "numero": 7,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 692.72,
+        "TC": 1,
+        "A1": 4,
+        "A3": 7,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM ALFRAGIDE PALETS A",
+        "numero": 8,
+        "configuracion": "TC/5 JAULAS ANTIGUAS + 10 JAULAS NUEVAS + 10 JAULAS NUEVAS",
+        "mensalidade_eur": 525.63,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 15
+      },
+      {
+        "nombre": "LM ALFRAGIDE PALETS B",
+        "numero": 9,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 475.06,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 10
+      }
+    ],
+    "lat": 38.7253934,
+    "lng": -9.2152533
+  },
+  {
+    "id": "LM ALMADA",
+    "tienda_oficial": "LEROY MERLIN Almada",
+    "direccion": "Rua Sérgio Malpique, 2814-515 Almada",
+    "ciudad": "Almada",
+    "codigo_postal": "2814-515",
+    "lockers": [
+      {
+        "nombre": "LM ALMADA",
+        "numero": 1,
+        "configuracion": "TC/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/D7/D7/D7/D7/D7",
+        "mensalidade_eur": 946.77,
+        "TC": 1,
+        "A1": 0,
+        "A3": 18,
+        "D7": 5,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM ALMADA PALETS (nuevo)",
+        "numero": 2,
+        "configuracion": "TC/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL",
+        "mensalidade_eur": 3048.7,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 22
+      }
+    ],
+    "lat": 38.6590127,
+    "lng": -9.1730352
+  },
+  {
+    "id": "LM ALTA DE LISBOA",
+    "tienda_oficial": "LEROY MERLIN Alta de Lisboa",
+    "direccion": "Alta Retail Park, Rua Hermínio Palma Inácio Lote 1 - Alta de Lisboa, 1750-480 Lisboa",
+    "ciudad": "Lisboa",
+    "codigo_postal": "1750-480",
+    "lockers": [
+      {
+        "nombre": "LM ALTA DE LISBOA EXTERIOR",
+        "numero": 16,
+        "configuracion": "1/A3/A3/A3/TC/A3/A3/D7",
+        "mensalidade_eur": 260.56,
+        "TC": 1,
+        "A1": 1,
+        "A3": 5,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM ALTA DE LISBOA PALET",
+        "numero": 17,
+        "configuracion": "TC/BL/BL/BL/BL/BL/BL",
+        "mensalidade_eur": 640.86,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 3,
+        "BL_LM": 3
+      }
+    ],
+    "lat": 38.7077507,
+    "lng": -9.1365919
+  },
+  {
+    "id": "LM ALVERCA",
+    "tienda_oficial": "LEROY MERLIN Alverca Compact",
+    "direccion": "Alverca, Quinta das Drogas da Verdelha - EN10, Galerias Comerciais Auchan, 2615-170 Alverca do Ribatejo",
+    "ciudad": "Alverca do Ribatejo",
+    "codigo_postal": "2615-170",
+    "lockers": [
+      {
+        "nombre": "LM ALVERCA",
+        "numero": 53,
+        "configuracion": "BL/BL/BL/A1/A1/A3/A3/TC/A3/A3/D7/D7",
+        "mensalidade_eur": 795.86,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 3,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.8935253,
+    "lng": -9.0396136
+  },
+  {
+    "id": "LM AMADORA",
+    "tienda_oficial": "LEROY MERLIN Amadora",
+    "direccion": "Avenida José Garcês, 2650-505 Amadora",
+    "ciudad": "Amadora",
+    "codigo_postal": "2650-505",
+    "lockers": [
+      {
+        "nombre": "LM AMADORA EXTERIOR",
+        "numero": 3,
+        "configuracion": "1/1/1/1/1/1/3/3/3 TC/3/3/3/3/3/3/3/3/3/7",
+        "mensalidade_eur": 545.23,
+        "TC": 1,
+        "A1": 6,
+        "A3": 12,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM AMADORA PALETS",
+        "numero": 4,
+        "configuracion": "TC/BL/BL/BL/BL",
+        "mensalidade_eur": 797.22,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM AMADORA PALETS B (NUEVO)",
+        "numero": 5,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 1109.98,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 6,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.7799012,
+    "lng": -9.220195
+  },
+  {
+    "id": "LM AVEIRO",
+    "tienda_oficial": "LEROY MERLIN Aveiro",
+    "direccion": "Rua quinta da Rapada, Zona Industrial da Taboeira, 3800-555 Aveiro",
+    "ciudad": "Aveiro",
+    "codigo_postal": "3800-555",
+    "lockers": [
+      {
+        "nombre": "LM AVEIRO",
+        "numero": 28,
+        "configuracion": "A1/A1/A3/A3/A3/A3/TC/D7/D7/BL/BL/BL/BL",
+        "mensalidade_eur": 1690.34,
+        "TC": 1,
+        "A1": 2,
+        "A3": 7,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 8,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 40.640496,
+    "lng": -8.6537841
+  },
+  {
+    "id": "LM BARCELOS",
+    "tienda_oficial": "LEROY MERLIN Barcelos Compact",
+    "direccion": "Retail Park, Av. São José - Quinta do Benfeito, 4750-307 Barcelos",
+    "ciudad": "Barcelos",
+    "codigo_postal": "4750-307",
+    "lockers": [
+      {
+        "nombre": "LM BARCELOS",
+        "numero": 43,
+        "configuracion": "A3/A3/A3/TC/D7/D7/D7",
+        "mensalidade_eur": 195.77,
+        "TC": 1,
+        "A1": 0,
+        "A3": 3,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.5314496,
+    "lng": -8.6192306
+  },
+  {
+    "id": "LM BARREIRO",
+    "tienda_oficial": "LEROY MERLIN Barreiro Compact",
+    "direccion": "Barreiro Retail Planet, Estrada Nacional 10, km 18,5, 2830-411 Coina",
+    "ciudad": "Coina",
+    "codigo_postal": "2830-411",
+    "lockers": [
+      {
+        "nombre": "LM BARREIRO",
+        "numero": 57,
+        "configuracion": "A3/A3/TC/D7/D7 BL",
+        "mensalidade_eur": 893.97,
+        "TC": 1,
+        "A1": 0,
+        "A3": 6,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.5846486,
+    "lng": -9.051569
+  },
+  {
+    "id": "LM BRAGA",
+    "tienda_oficial": "LEROY MERLIN Braga",
+    "direccion": "Avenida Dom João II 280, 4715-275 Braga",
+    "ciudad": "Braga",
+    "codigo_postal": "4715-275",
+    "lockers": [
+      {
+        "nombre": "LM BRAGA EXTERIOR",
+        "numero": 19,
+        "configuracion": "3/3/3/3/3/3/TC/1/1/7/7/7",
+        "mensalidade_eur": 363.41,
+        "TC": 1,
+        "A1": 2,
+        "A3": 6,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM BRAGA PALETS",
+        "numero": 20,
+        "configuracion": "BL/BL/BL/BL/BL/BL/TC",
+        "mensalidade_eur": 1109.96,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 6,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.5467813,
+    "lng": -8.3990247
+  },
+  {
+    "id": "LM BRAGANCA",
+    "tienda_oficial": "LEROY MERLIN Bragança Essencial",
+    "direccion": "Rua Coronel Teófilo de Morais, 12, 5300-427 Bragança",
+    "ciudad": "Bragança",
+    "codigo_postal": "5300-427",
+    "lockers": [
+      {
+        "nombre": "LM BRAGANCA",
+        "numero": 51,
+        "configuracion": "A3/A3/TC",
+        "mensalidade_eur": 81.43,
+        "TC": 1,
+        "A1": 0,
+        "A3": 2,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.7882038,
+    "lng": -6.7802039
+  },
+  {
+    "id": "LM CALDAS DA RAINHA",
+    "tienda_oficial": "LEROY MERLIN Caldas da Rainha Compact",
+    "direccion": "Rua Infante Dom Henrique, 2500-918 Caldas da Rainha",
+    "ciudad": "Caldas da Rainha",
+    "codigo_postal": "2500-918",
+    "lockers": [
+      {
+        "nombre": "LM CALDAS DA RAINHA",
+        "numero": 14,
+        "configuracion": "BL/BL/BL/BL/1/1/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "mensalidade_eur": 1424.94,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 8,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 39.4103384,
+    "lng": -9.1429354
+  },
+  {
+    "id": "LM CARCAVELOS",
+    "tienda_oficial": "LEROY MERLIN Carcavelos Essencial",
+    "direccion": "Estrada da Alagoa, no96, Rebelva, 2775-716 Carcavelos",
+    "ciudad": "Carcavelos",
+    "codigo_postal": "2775-716",
+    "lockers": [
+      {
+        "nombre": "LM CARCAVELOS",
+        "numero": 59,
+        "configuracion": "BL/A1/TC/A3/A3/D7/D7",
+        "mensalidade_eur": 610.32,
+        "TC": 1,
+        "A1": 2,
+        "A3": 3,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 1,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.6948958,
+    "lng": -9.3401359
+  },
+  {
+    "id": "LM CASCAIS",
+    "tienda_oficial": "LEROY MERLIN Cascais Compact",
+    "direccion": "Estrada Nacional 9, Alcabideche, 2645-544 Cascais",
+    "ciudad": "Cascais",
+    "codigo_postal": "2645-544",
+    "lockers": [
+      {
+        "nombre": "LM CASCAIS",
+        "numero": 56,
+        "configuracion": "A3/A3/TC/D7/D7",
+        "mensalidade_eur": 806.84,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 3,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.7524629,
+    "lng": -9.4503676
+  },
+  {
+    "id": "LM CASTELO BRANCO",
+    "tienda_oficial": "LEROY MERLIN Castelo Branco Essencial",
+    "direccion": "Estrada Nacional 18, Apartado 1131, 6000-050 Castelo Branco",
+    "ciudad": "Castelo Branco",
+    "codigo_postal": "6000-050",
+    "lockers": [
+      {
+        "nombre": "LM CASTELO BRANCO",
+        "numero": 54,
+        "configuracion": "A3/A3/TC/D7/D7",
+        "mensalidade_eur": 236.33,
+        "TC": 1,
+        "A1": 1,
+        "A3": 3,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM CASTELO BRANCO PALETS",
+        "numero": 55,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 328.13,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 1,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 39.9767583,
+    "lng": -7.4460599
+  },
+  {
+    "id": "LM CHAVES",
+    "tienda_oficial": "LEROY MERLIN Chaves Essencial",
+    "direccion": "Retail Park, Rotunda Raio X, Fração L2, 5400-011 Chaves",
+    "ciudad": "Chaves",
+    "codigo_postal": "5400-011",
+    "lockers": [
+      {
+        "nombre": "LM CHAVES",
+        "numero": 65,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 310.47,
+        "TC": 1,
+        "A1": 1,
+        "A3": 1,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.7399003,
+    "lng": -7.4715213
+  },
+  {
+    "id": "LM COIMBRA",
+    "tienda_oficial": "LEROY MERLIN Coimbra",
+    "direccion": "Rua Luís A. Duarte Santos, 3030-403 Coimbra",
+    "ciudad": "Coimbra",
+    "codigo_postal": "3030-403",
+    "lockers": [
+      {
+        "nombre": "LM COIMBRA",
+        "numero": 15,
+        "configuracion": "BL/BL/BL 3/3/3/3/3/3/3/3/3/TC/3/7/7/7/7/7/7",
+        "mensalidade_eur": 1174.05,
+        "TC": 1,
+        "A1": 0,
+        "A3": 12,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 40.2111931,
+    "lng": -8.4294632
+  },
+  {
+    "id": "LM COLOMBO",
+    "tienda_oficial": "LEROY MERLIN Colombo Essencial",
+    "direccion": "Centro Comercial Colombo, Galeria Comercial Continente, Avenida Lusíada, nº3, 1500-392 Lisboa",
+    "ciudad": "Lisboa",
+    "codigo_postal": "1500-392",
+    "lockers": [
+      {
+        "nombre": "LM COLOMBO",
+        "numero": 62,
+        "configuracion": "A1/A3/A3/TC/D7/D7",
+        "mensalidade_eur": 363.52,
+        "TC": 1,
+        "A1": 1,
+        "A3": 2,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.7077507,
+    "lng": -9.1365919
+  },
+  {
+    "id": "LM EVORA",
+    "tienda_oficial": "LEROY MERLIN Évora",
+    "direccion": "Quinta do Alcaide - S. José da Ponte, 7005-312 Évora",
+    "ciudad": "Évora",
+    "codigo_postal": "7005-312",
+    "lockers": [
+      {
+        "nombre": "LM EVORA",
+        "numero": 39,
+        "configuracion": "A3/A3/A3/TC/D7/D7/D7/BL/BL",
+        "mensalidade_eur": 218.86,
+        "TC": 1,
+        "A1": 0,
+        "A3": 4,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM EVORA PALETS",
+        "numero": 40,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 953.6,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 5,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.5580852,
+    "lng": -7.8958601
+  },
+  {
+    "id": "LM FIGUEIRA DA FOZ",
+    "tienda_oficial": "LEROY MERLIN Figueira da Foz Essencial",
+    "direccion": "Local de Várzea, Avenida Dom João Alves, Tavarede, 3080-897 Figueira da Foz",
+    "ciudad": "Figueira da Foz",
+    "codigo_postal": "3080-897",
+    "lockers": [
+      {
+        "nombre": "LM FIGUEIRA DA FOZ",
+        "numero": 52,
+        "configuracion": "A3/A3/TC/D7/D7",
+        "mensalidade_eur": 318.03,
+        "TC": 1,
+        "A1": 1,
+        "A3": 3,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 40.1485808,
+    "lng": -8.855655
+  },
+  {
+    "id": "LM GAIA",
+    "tienda_oficial": "LEROY MERLIN Gaia",
+    "direccion": "Rua Artur Lobão Peixoto, 4400-625 Vila Nova de Gaia",
+    "ciudad": "Vila Nova de Gaia",
+    "codigo_postal": "4400-625",
+    "lockers": [
+      {
+        "nombre": "LM GAIA EXTERIOR",
+        "numero": 21,
+        "configuracion": "A1/A1/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "mensalidade_eur": 486.34,
+        "TC": 1,
+        "A1": 4,
+        "A3": 6,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM GAIA PALET",
+        "numero": 22,
+        "configuracion": "TC/BL/BL/BL/BL",
+        "mensalidade_eur": 797.22,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.1218863,
+    "lng": -8.6244458
+  },
+  {
+    "id": "LM GONDOMAR",
+    "tienda_oficial": "LEROY MERLIN Gondomar",
+    "direccion": "Centro Comercial Parque Nascente, Estrada Exterior da Circunvalação EN12, 4435-481 Rio Tinto",
+    "ciudad": "Rio Tinto",
+    "codigo_postal": "4435-481",
+    "lockers": [
+      {
+        "nombre": "LM GONDOMAR",
+        "numero": 23,
+        "configuracion": "A3/A3/A3/A3/TC/D7/D7/1/1 + 5 JAULAS",
+        "mensalidade_eur": 489.77,
+        "TC": 1,
+        "A1": 4,
+        "A3": 6,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 5
+      }
+    ],
+    "lat": 41.1845394,
+    "lng": -8.5571542
+  },
+  {
+    "id": "LM GUARDA",
+    "tienda_oficial": "LEROY MERLIN Guarda Compact",
+    "direccion": "IN Guarda Retail Park, Viceg-quinta da Vázea, 6300-653 Guarda",
+    "ciudad": "Guarda",
+    "codigo_postal": "6300-653",
+    "lockers": [
+      {
+        "nombre": "LM GUARDA",
+        "numero": 44,
+        "configuracion": "A3/A3/A3/TC/A3/A1/A1",
+        "mensalidade_eur": 269.59,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 40.7046066,
+    "lng": -7.1951392
+  },
+  {
+    "id": "LM GUIMARAES",
+    "tienda_oficial": "LEROY MERLIN Guimarães Compact",
+    "direccion": "Rua Capitão Salgueiro Maia - Silvares, 4835-604 Guimarães",
+    "ciudad": "Guimarães",
+    "codigo_postal": "4835-604",
+    "lockers": [
+      {
+        "nombre": "LM GUIMARAES EXTERIOR",
+        "numero": 29,
+        "configuracion": "A1/A1/A3/TC/A3/A3/D7/D7",
+        "mensalidade_eur": 332.17,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM GUIMARAES PALET",
+        "numero": 30,
+        "configuracion": "TC/BL/BL",
+        "mensalidade_eur": 484.49,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 2,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.4432013,
+    "lng": -8.3364287
+  },
+  {
+    "id": "LM LEIRIA",
+    "tienda_oficial": "LEROY MERLIN Leiria",
+    "direccion": "Rua Álvaro Pires Miranda, nº95, 2415-369 Leiria",
+    "ciudad": "Leiria",
+    "codigo_postal": "2415-369",
+    "lockers": [
+      {
+        "nombre": "LM LEIRIA",
+        "numero": 18,
+        "configuracion": "BL/BL/BL/BL/1/1/1/A3/A3/A3/A3/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "mensalidade_eur": 1256.24,
+        "TC": 1,
+        "A1": 6,
+        "A3": 11,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 39.7437902,
+    "lng": -8.8071119
+  },
+  {
+    "id": "LM LOULE",
+    "tienda_oficial": "LEROY MERLIN Loulé",
+    "direccion": "Avenida Algarve 2, 8100-299 Loulé",
+    "ciudad": "Loulé",
+    "codigo_postal": "8100-299",
+    "lockers": [
+      {
+        "nombre": "LM LOULE",
+        "numero": 38,
+        "configuracion": "A3/A3/A3/TC/A3/D7/D7/BL/BL/BL",
+        "mensalidade_eur": 641.58,
+        "TC": 1,
+        "A1": 0,
+        "A3": 4,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 3,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 37.1008062,
+    "lng": -8.0016102
+  },
+  {
+    "id": "LM LOURES",
+    "tienda_oficial": "LEROY MERLIN Loures Compact",
+    "direccion": "C.C. Continente Loja MS.1, Est. Nacional 250, Qta. Casal da Pipa, 2670-339 Loures",
+    "ciudad": "Loures",
+    "codigo_postal": "2670-339",
+    "lockers": [
+      {
+        "nombre": "LM LOURES",
+        "numero": 47,
+        "configuracion": "A3/A3/A3/TC/A1/D7",
+        "mensalidade_eur": 214.0,
+        "TC": 1,
+        "A1": 1,
+        "A3": 3,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.8308741,
+    "lng": -9.1684512
+  },
+  {
+    "id": "LM MAFRA",
+    "tienda_oficial": "LEROY MERLIN Mafra Essencial",
+    "direccion": "Rua Comendador José Noronha Gorjão, Urbanização Quinta de Pevides, 2640-408 Mafra",
+    "ciudad": "Mafra",
+    "codigo_postal": "2640-408",
+    "lockers": [
+      {
+        "nombre": "LM MAFRA",
+        "numero": 35,
+        "configuracion": "A1/A3/A3/TC/A3/A3/D7+D7+JAULA",
+        "mensalidade_eur": 303.69,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 1
+      }
+    ],
+    "lat": 38.9369782,
+    "lng": -9.3282374
+  },
+  {
+    "id": "LM MAIA",
+    "tienda_oficial": "LEROY MERLIN Maia",
+    "direccion": "Rua de Domingos Oliveira, Zona industrial da Maia I, Sector X, 4470-265 Moreira da Maia, Maia",
+    "ciudad": "Moreira da Maia, Maia",
+    "codigo_postal": "4470-265",
+    "lockers": [
+      {
+        "nombre": "LM MAIA EXTERIOR",
+        "numero": 12,
+        "configuracion": "A3/A3/A3/A3/A3/TC/D7/D7/D7/1/1/1/1",
+        "mensalidade_eur": 399.28,
+        "TC": 1,
+        "A1": 4,
+        "A3": 5,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM MAIA PALETS",
+        "numero": 13,
+        "configuracion": "TC/BL/BL/BL",
+        "mensalidade_eur": 1891.79,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 11,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.2356265,
+    "lng": -8.6638483
+  },
+  {
+    "id": "LM MATOSINHOS",
+    "tienda_oficial": "LEROY MERLIN Matosinhos",
+    "direccion": "Av. Arquitecto Fernando Távora, 4450-820 Leça da Palmeira",
+    "ciudad": "Leça da Palmeira",
+    "codigo_postal": "4450-820",
+    "lockers": [
+      {
+        "nombre": "LM MATOSINHOS EXTERIOR",
+        "numero": 60,
+        "configuracion": "A1/A1/A1/A1/A1/TC/A3/A3/A3/A3/A3/A3/A3/A3/D7/D7",
+        "mensalidade_eur": 1089.5,
+        "TC": 1,
+        "A1": 7,
+        "A3": 10,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM MATOSINHOS PALETS",
+        "numero": 61,
+        "configuracion": "TC/BL/BL/BL/BL/BL/BL/BL/BL",
+        "mensalidade_eur": 2360.89,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 14,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.2085448,
+    "lng": -8.6843501
+  },
+  {
+    "id": "LM MONTIJO",
+    "tienda_oficial": "LEROY MERLIN Montijo Compact",
+    "direccion": "Avenida das Portas da Cidade, 2870-448 Montijo",
+    "ciudad": "Montijo",
+    "codigo_postal": "2870-448",
+    "lockers": [
+      {
+        "nombre": "LM MONTIJO",
+        "numero": 36,
+        "configuracion": "A3/A3/A3/TC/D7/A1/A1",
+        "mensalidade_eur": 193.46,
+        "TC": 1,
+        "A1": 1,
+        "A3": 3,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM MONTIJO PALETS",
+        "numero": 37,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 932.38,
+        "TC": 1,
+        "A1": 0,
+        "A3": 2,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.7019407,
+    "lng": -8.9461873
+  },
+  {
+    "id": "LM OEIRAS",
+    "tienda_oficial": "LEROY MERLIN Oeiras Compact",
+    "direccion": "Rua do Abrunheiro, Casal do Brejo, S. Julião da Barra, 2780-363 Oeiras",
+    "ciudad": "Oeiras",
+    "codigo_postal": "2780-363",
+    "lockers": [
+      {
+        "nombre": "LM OEIRAS",
+        "numero": 49,
+        "configuracion": "A3/A3/A3/A3/TC/A1/D7/D7/D7",
+        "mensalidade_eur": 366.96,
+        "TC": 1,
+        "A1": 3,
+        "A3": 5,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.6925777,
+    "lng": -9.3123076
+  },
+  {
+    "id": "LM PENAFIEL",
+    "tienda_oficial": "LEROY MERLIN Penafiel Compact",
+    "direccion": "CityPark Penafiel- Loja A, Rua do Tapadinho Guilhufe, 4560-163 Penafiel",
+    "ciudad": "Penafiel",
+    "codigo_postal": "4560-163",
+    "lockers": [
+      {
+        "nombre": "LM PENAFIEL",
+        "numero": 31,
+        "configuracion": "A3/A3/TC/D7/D7/D7/D7/BL/BL",
+        "mensalidade_eur": 743.38,
+        "TC": 1,
+        "A1": 3,
+        "A3": 7,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 2,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.2061892,
+    "lng": -8.2855653
+  },
+  {
+    "id": "LM PONTA DELGADA",
+    "tienda_oficial": "LEROY MERLIN Ponta Delgada Compact",
+    "direccion": "Avenida Dom Manuel I, 9500-782 Ponta Delgada",
+    "ciudad": "Ponta Delgada",
+    "codigo_postal": "9500-782",
+    "lockers": [
+      {
+        "nombre": "LM PONTA DELGADA",
+        "numero": 58,
+        "configuracion": "A3/A3/TC/D7/D7",
+        "mensalidade_eur": 248.16,
+        "TC": 1,
+        "A1": 0,
+        "A3": 4,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 37.7501572,
+    "lng": -25.6741094
+  },
+  {
+    "id": "LM PORTIMAO",
+    "tienda_oficial": "LEROY MERLIN Portimão",
+    "direccion": "Rua dos Custódios - Chão das Donas, NOVA VILA RETAIL PARK, 8500-469 Portimão",
+    "ciudad": "Portimão",
+    "codigo_postal": "8500-469",
+    "lockers": [
+      {
+        "nombre": "LM PORTIMAO EXTERIOR",
+        "numero": 41,
+        "configuracion": "1/1/3/3/TC/3/3/7",
+        "mensalidade_eur": 349.17,
+        "TC": 1,
+        "A1": 2,
+        "A3": 4,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM PORTIMAO PALETS",
+        "numero": 42,
+        "configuracion": "TC/BL/BL/BL/BL/BL/BL/BL",
+        "mensalidade_eur": 1266.32,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 7,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 37.1375808,
+    "lng": -8.5368426
+  },
+  {
+    "id": "LM SACAVEM",
+    "tienda_oficial": "LEROY MERLIN Sacavém Essencial",
+    "direccion": "Rua Cidade de Goa, nº22-24, Edifício 2B, 2685-038 Sacavém",
+    "ciudad": "Sacavém",
+    "codigo_postal": "2685-038",
+    "lockers": [
+      {
+        "nombre": "LM SACAVEM",
+        "numero": 50,
+        "configuracion": "A3/A3/TC/D7/D7",
+        "mensalidade_eur": 139.33,
+        "TC": 1,
+        "A1": 0,
+        "A3": 2,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.7959049,
+    "lng": -9.0996307
+  },
+  {
+    "id": "LM SANTA MARIA DA FEIRA",
+    "tienda_oficial": "LEROY MERLIN Santa Maria da Feira Essencial",
+    "direccion": "Rua Baden Powell, Lugar da Cruz, 4520-192 Santa Maria da Feira",
+    "ciudad": "Santa Maria da Feira",
+    "codigo_postal": "4520-192",
+    "lockers": [
+      {
+        "nombre": "LM  SANTA MARÍA DA FEIRA",
+        "numero": 48,
+        "configuracion": "A1/A1/A3/TC/A3/D7",
+        "mensalidade_eur": 343.06,
+        "TC": 1,
+        "A1": 3,
+        "A3": 3,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 40.9254179,
+    "lng": -8.5426688
+  },
+  {
+    "id": "LM SANTAREM",
+    "tienda_oficial": "LEROY MERLIN Santarém",
+    "direccion": "Santarém Retail Park. Quinta das Cegonhas, 2000-471 Santarém",
+    "ciudad": "Santarém",
+    "codigo_postal": "2000-471",
+    "lockers": [
+      {
+        "nombre": "LM SANTAREM",
+        "numero": 25,
+        "configuracion": "A1/A1/A1/A3/A3/TC/A3/A3/D7/D7",
+        "mensalidade_eur": 309.98,
+        "TC": 1,
+        "A1": 3,
+        "A3": 4,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM SANTAREM PALETS",
+        "numero": 26,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 640.86,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 3,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 39.2363637,
+    "lng": -8.6867081
+  },
+  {
+    "id": "LM SETUBAL",
+    "tienda_oficial": "LEROY MERLIN Setúbal",
+    "direccion": "Rua Azeda de Baixo, São Sebastião, 2900-411 Setúbal",
+    "ciudad": "Setúbal",
+    "codigo_postal": "2900-411",
+    "lockers": [
+      {
+        "nombre": "LM SETUBAL",
+        "numero": 24,
+        "configuracion": "2 JAULAS+4 BL A3/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "mensalidade_eur": 1844.83,
+        "TC": 1,
+        "A1": 0,
+        "A3": 5,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 10,
+        "BL_LM": 2
+      }
+    ],
+    "lat": 38.5241783,
+    "lng": -8.8932341
+  },
+  {
+    "id": "LM SINTRA",
+    "tienda_oficial": "LEROY MERLIN Sintra",
+    "direccion": "Estrada Nacional, 2710-088 Sintra",
+    "ciudad": "Sintra",
+    "codigo_postal": "2710-088",
+    "lockers": [
+      {
+        "nombre": "LM SINTRA",
+        "numero": 10,
+        "configuracion": "4BL / 4 BL LM / 1/1/3/3/TC/3/3/3/3/3/3/3/7/7/7/7",
+        "mensalidade_eur": 522.85,
+        "TC": 1,
+        "A1": 3,
+        "A3": 9,
+        "D7": 4,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM SINTRA PALETS",
+        "numero": 11,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 1109.95,
+        "TC": 1,
+        "A1": 0,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 6,
+        "BL_LM": 4
+      }
+    ],
+    "lat": 38.8355446,
+    "lng": -9.3522371
+  },
+  {
+    "id": "LM TELHEIRAS",
+    "tienda_oficial": "LEROY MERLIN Telheiras Compact",
+    "direccion": "Av. das Nações Unidas (loja 041), 1600-528 Lisboa",
+    "ciudad": "Lisboa",
+    "codigo_postal": "1600-528",
+    "lockers": [
+      {
+        "nombre": "LM TELHEIRAS",
+        "numero": 64,
+        "configuracion": "A1/A1/A3/A3/D7/D7/TC/BL/BL/BL/BL/BL/BL/BL/BL",
+        "mensalidade_eur": 1700.14,
+        "TC": 1,
+        "A1": 2,
+        "A3": 2,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 8,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 38.7077507,
+    "lng": -9.1365919
+  },
+  {
+    "id": "LM TORRES NOVAS",
+    "tienda_oficial": "LEROY MERLIN Torres Novas Essencial",
+    "direccion": "Torreshopping, Ponte Nova - Bairro do Nicho s/n, 2350-464 Torres Novas",
+    "ciudad": "Torres Novas",
+    "codigo_postal": "2350-464",
+    "lockers": [
+      {
+        "nombre": "LM TORRES NOVAS",
+        "numero": 63,
+        "configuracion": "A1/A3/A3/TC/D7/D7/BL/BL",
+        "mensalidade_eur": 676.25,
+        "TC": 1,
+        "A1": 1,
+        "A3": 2,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 2,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 39.47962,
+    "lng": -8.53955
+  },
+  {
+    "id": "LM TORRES VEDRAS",
+    "tienda_oficial": "LEROY MERLIN Torres Vedras Compact",
+    "direccion": "Bairro de Arenes, Travessa de São Pedro, 2560-628 Torres Vedras",
+    "ciudad": "Torres Vedras",
+    "codigo_postal": "2560-628",
+    "lockers": [
+      {
+        "nombre": "LM TORRES VEFRAS",
+        "numero": 32,
+        "configuracion": "A1/A1/A3/A3/TC/A3/A3/D7",
+        "mensalidade_eur": 346.56,
+        "TC": 1,
+        "A1": 4,
+        "A3": 4,
+        "D7": 2,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 39.0930856,
+    "lng": -9.260741
+  },
+  {
+    "id": "LM VIANA DO CASTELO",
+    "tienda_oficial": "LEROY MERLIN Viana do Castelo Compact",
+    "direccion": "Estrada Nacional nº 203, Lugar da Estação, 4935-238 Darque - Viana do Castelo",
+    "ciudad": "Darque - Viana do Castelo",
+    "codigo_postal": "4935-238",
+    "lockers": [
+      {
+        "nombre": "LM VIANA DO CASTELO",
+        "numero": 45,
+        "configuracion": "A3/A3/A3/TC/D7/D7/D7",
+        "mensalidade_eur": 221.94,
+        "TC": 1,
+        "A1": 0,
+        "A3": 3,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 0,
+        "BL_LM": 0
+      },
+      {
+        "nombre": "LM VIANA DO CASTELO PALETS",
+        "numero": 46,
+        "configuracion": "LOCKER NUEVO",
+        "mensalidade_eur": 891.2,
+        "TC": 1,
+        "A1": 2,
+        "A3": 0,
+        "D7": 0,
+        "HT12": 0,
+        "BL": 4,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 41.6833513,
+    "lng": -8.8061655
+  },
+  {
+    "id": "LM VISEU",
+    "tienda_oficial": "LEROY MERLIN Viseu Compact",
+    "direccion": "Av. da Bélgica, Est. Nac. 2 Km 170,550, 3510-159 Viseu",
+    "ciudad": "Viseu",
+    "codigo_postal": "3510-159",
+    "lockers": [
+      {
+        "nombre": "LM VISEU",
+        "numero": 27,
+        "configuracion": "A1/A3/A3/A3/A3/TC/D7/D7/D7/BL/BL",
+        "mensalidade_eur": 721.28,
+        "TC": 1,
+        "A1": 1,
+        "A3": 4,
+        "D7": 3,
+        "HT12": 0,
+        "BL": 3,
+        "BL_LM": 0
+      }
+    ],
+    "lat": 40.6712595,
+    "lng": -7.9189377
+  }
+]
