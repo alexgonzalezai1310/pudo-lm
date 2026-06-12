@@ -330,15 +330,19 @@ function Overlay({ children, onClose }: { children: React.ReactNode; onClose: ()
 function LockerPanel({
   locker,
   location,
+  dosier,
   onClose,
 }: {
   locker: Locker;
   location: Location;
+  dosier?: DosierEntry;
   onClose: () => void;
 }) {
   const modules = (["TC", "A1", "A3", "D7", "HT12", "BL", "BL_LM"] as const)
     .map((k) => ({ k, v: locker[k] }))
     .filter((m) => m.v > 0);
+
+  const hasDosier = dosier && dosier.status === "OK" && dosier.foto && dosier.config;
 
   return (
     <div className="flex max-h-[90vh] w-full max-w-lg flex-col rounded-t-2xl border border-border bg-surface-elevated shadow-2xl sm:rounded-xl">
