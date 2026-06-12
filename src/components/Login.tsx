@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { useAuth, validateCredentials } from "@/lib/auth";
+import { BrandLogos, BrandText } from "@/components/Brand";
 
 export function Login() {
   const { login } = useAuth();
@@ -44,16 +45,10 @@ export function Login() {
 
         {/* Header */}
         <div className="mb-7 text-center">
-          <div className="mb-4 flex items-center justify-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-md border border-border bg-background">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <path d="M3 12h18" />
-                <path d="M12 3v18" />
-              </svg>
-            </div>
-            <span className="font-display text-3xl font-bold tracking-tight text-primary">PUDO</span>
+          <div className="mb-4 flex items-center justify-center rounded-md border border-border bg-black px-4 py-3">
+            <BrandLogos size={36} gap={14} />
           </div>
+          <BrandText className="font-display text-2xl font-bold tracking-tight" />
           <p className="text-sm text-muted-foreground">Red de Lockers · Portugal</p>
           <div className="mt-3 flex items-center justify-center gap-2 text-xs text-muted-foreground">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-primary" />
