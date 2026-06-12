@@ -1,0 +1,392 @@
+{
+  "LM ALBUFEIRA EXTERIOR": {
+    "foto": "/dosier/albufeira-exterior-foto.jpg",
+    "config": "/dosier/albufeira-exterior-config.jpg",
+    "dosier": "LEROY MERLIN ALBUFEIRA EXTERIOR",
+    "status": "OK"
+  },
+  "LM ALBUFEIRA PALETS": {
+    "foto": "/dosier/albufeira-palets-foto.jpg",
+    "config": "/dosier/albufeira-palets-config.jpg",
+    "dosier": "LEROY MERLIN ALBUFEIRA PALETS",
+    "status": "OK"
+  },
+  "LM ALFRAGIDE EXTERIOR A": {
+    "foto": "/dosier/alfragide-exterior-a-foto.jpg",
+    "config": "/dosier/alfragide-exterior-a-config.jpg",
+    "dosier": "LEROY MERLIN ALFRAGIDE EXTERIOR A",
+    "status": "OK"
+  },
+  "LM ALFRAGIDE EXTERIOR B": {
+    "foto": "/dosier/alfragide-exterior-b-foto.jpg",
+    "config": "/dosier/alfragide-exterior-b-config.jpg",
+    "dosier": "LEROY MERLIN ALFRAGIDE EXTERIOR B",
+    "status": "OK"
+  },
+  "LM ALFRAGIDE PALETS A": {
+    "foto": "/dosier/alfragide-palets-a-foto.jpg",
+    "config": "/dosier/alfragide-palets-a-config.jpg",
+    "dosier": "LEROY MERLIN ALFRAGIDE PALETS A",
+    "status": "OK"
+  },
+  "LM ALFRAGIDE PALETS B": {
+    "foto": "/dosier/alfragide-palets-b-foto.jpg",
+    "config": "/dosier/alfragide-palets-b-config.jpg",
+    "dosier": "LEROY MERLIN ALFRAGIDE PALETS B",
+    "status": "OK"
+  },
+  "LM ALMADA": {
+    "foto": "/dosier/almada-foto.jpg",
+    "config": "/dosier/almada-config.jpg",
+    "dosier": "LEROY MERLIN ALMADA",
+    "status": "OK"
+  },
+  "LM ALMADA PALETS (nuevo)": {
+    "foto": "/dosier/almada-palets-foto.jpg",
+    "config": "/dosier/almada-palets-config.jpg",
+    "dosier": "LEROY MERLIN ALMADA PALETS",
+    "status": "OK"
+  },
+  "LM ALTA DE LISBOA EXTERIOR": {
+    "foto": "/dosier/alta-de-lisboa-exterior-foto.jpg",
+    "config": "/dosier/alta-de-lisboa-exterior-config.jpg",
+    "dosier": "LEROY MERLIN ALTA DE LISBOA EXTERIOR",
+    "status": "OK"
+  },
+  "LM ALTA DE LISBOA PALET": {
+    "foto": "/dosier/alta-de-lisboa-palets-foto.jpg",
+    "config": "/dosier/alta-de-lisboa-palets-config.jpg",
+    "dosier": "LEROY MERLIN ALTA DE LISBOA PALETS",
+    "status": "OK"
+  },
+  "LM ALVERCA": {
+    "foto": "/dosier/alverca-foto.jpg",
+    "config": "/dosier/alverca-config.jpg",
+    "dosier": "LEROY MERLIN ALVERCA",
+    "status": "OK"
+  },
+  "LM AMADORA EXTERIOR": {
+    "foto": "/dosier/amadora-exterior-foto.jpg",
+    "config": "/dosier/amadora-exterior-config.jpg",
+    "dosier": "LEROY MERLIN AMADORA EXTERIOR",
+    "status": "OK"
+  },
+  "LM AMADORA PALETS": {
+    "foto": "/dosier/amadora-palets-foto.jpg",
+    "config": "/dosier/amadora-palets-config.jpg",
+    "dosier": "LEROY MERLIN AMADORA PALETS",
+    "status": "OK"
+  },
+  "LM AMADORA PALETS B (NUEVO)": {
+    "foto": "/dosier/amadora-palets-b-foto.jpg",
+    "config": "/dosier/amadora-palets-b-config.jpg",
+    "dosier": "LEROY MERLIN AMADORA PALETS B",
+    "status": "OK"
+  },
+  "LM AVEIRO": {
+    "foto": "/dosier/aveiro-foto.jpg",
+    "config": "/dosier/aveiro-config.jpg",
+    "dosier": "LEROY MERLIN AVEIRO",
+    "status": "OK"
+  },
+  "LM BARCELOS": {
+    "foto": "/dosier/barcelos-foto.jpg",
+    "config": "/dosier/barcelos-config.jpg",
+    "dosier": "LEROY MERLIN BARCELOS",
+    "status": "OK"
+  },
+  "LM BARREIRO": {
+    "foto": "/dosier/barreiro-foto.jpg",
+    "config": "/dosier/barreiro-config.jpg",
+    "dosier": "LEROY MERLIN BARREIRO",
+    "status": "OK"
+  },
+  "LM BRAGA EXTERIOR": {
+    "foto": "/dosier/braga-exterior-foto.jpg",
+    "config": "/dosier/braga-exterior-config.jpg",
+    "dosier": "LEROY MERLIN BRAGA EXTERIOR",
+    "status": "OK"
+  },
+  "LM BRAGA PALETS": {
+    "foto": "/dosier/braga-palets-foto.jpg",
+    "config": "/dosier/braga-palets-config.jpg",
+    "dosier": "LEROY MERLIN BRAGA PALETS",
+    "status": "OK"
+  },
+  "LM BRAGANCA": {
+    "foto": "/dosier/braganca-foto.jpg",
+    "config": "/dosier/braganca-config.jpg",
+    "dosier": "LEROY MERLIN BRAGANCA",
+    "status": "OK"
+  },
+  "LM CALDAS DA RAINHA": {
+    "foto": "/dosier/caldas-da-rainha-foto.jpg",
+    "config": "/dosier/caldas-da-rainha-config.jpg",
+    "dosier": "LEROY MERLIN CALDAS DA RAINHA",
+    "status": "OK"
+  },
+  "LM CARCAVELOS": {
+    "foto": "/dosier/carcavelos-foto.jpg",
+    "config": "/dosier/carcavelos-config.jpg",
+    "dosier": "LEROY MERLIN CARCAVELOS",
+    "status": "OK"
+  },
+  "LM CASCAIS": {
+    "foto": "/dosier/cascais-foto.jpg",
+    "config": "/dosier/cascais-config.jpg",
+    "dosier": "LEROY MERLIN CASCAIS",
+    "status": "OK"
+  },
+  "LM CASTELO BRANCO": {
+    "foto": "/dosier/castelo-branco-foto.jpg",
+    "config": "/dosier/castelo-branco-config.jpg",
+    "dosier": "LEROY MERLIN CASTELO BRANCO",
+    "status": "OK"
+  },
+  "LM CASTELO BRANCO PALETS": {
+    "foto": "/dosier/castelo-branco-palets-foto.jpg",
+    "config": "/dosier/castelo-branco-palets-config.jpg",
+    "dosier": "LEROY MERLIN CASTELO BRANCO PALETS",
+    "status": "OK"
+  },
+  "LM CHAVES": {
+    "foto": "/dosier/chaves-foto.jpg",
+    "config": "/dosier/chaves-config.jpg",
+    "dosier": "LEROY MERLIN CHAVES",
+    "status": "OK"
+  },
+  "LM COIMBRA": {
+    "foto": "/dosier/coimbra-foto.jpg",
+    "config": "/dosier/coimbra-config.jpg",
+    "dosier": "LEROY MERLIN COIMBRA",
+    "status": "OK"
+  },
+  "LM COLOMBO": {
+    "foto": "/dosier/colombo-foto.jpg",
+    "config": "/dosier/colombo-config.jpg",
+    "dosier": "LEROY MERLIN COLOMBO",
+    "status": "OK"
+  },
+  "LM EVORA": {
+    "foto": "/dosier/evora-foto.jpg",
+    "config": "/dosier/evora-config.jpg",
+    "dosier": "LEROY MERLIN EVORA",
+    "status": "OK"
+  },
+  "LM EVORA PALETS": {
+    "foto": "/dosier/evora-palets-foto.jpg",
+    "config": "/dosier/evora-palets-config.jpg",
+    "dosier": "LEROY MERLIN EVORA PALETS",
+    "status": "OK"
+  },
+  "LM FIGUEIRA DA FOZ": {
+    "foto": "/dosier/figueira-da-foz-foto.jpg",
+    "config": "/dosier/figueira-da-foz-config.jpg",
+    "dosier": "LEROY MERLIN FIGUEIRA DA FOZ",
+    "status": "OK"
+  },
+  "LM GAIA EXTERIOR": {
+    "foto": "/dosier/gaia-exterior-foto.jpg",
+    "config": "/dosier/gaia-exterior-config.jpg",
+    "dosier": "LEROY MERLIN GAIA EXTERIOR",
+    "status": "OK"
+  },
+  "LM GAIA PALET": {
+    "foto": "/dosier/gaia-palets-foto.jpg",
+    "config": "/dosier/gaia-palets-config.jpg",
+    "dosier": "LEROY MERLIN GAIA PALETS",
+    "status": "OK"
+  },
+  "LM GONDOMAR": {
+    "foto": "/dosier/gondomar-foto.jpg",
+    "config": "/dosier/gondomar-config.jpg",
+    "dosier": "LEROY MERLIN GONDOMAR",
+    "status": "OK"
+  },
+  "LM GUARDA": {
+    "foto": "/dosier/guarda-foto.jpg",
+    "config": "/dosier/guarda-config.jpg",
+    "dosier": "LEROY MERLIN GUARDA",
+    "status": "OK"
+  },
+  "LM GUIMARAES EXTERIOR": {
+    "foto": "/dosier/guimaraes-exterior-foto.jpg",
+    "config": "/dosier/guimaraes-exterior-config.jpg",
+    "dosier": "LEROY MERLIN GUIMARAES EXTERIOR",
+    "status": "OK"
+  },
+  "LM GUIMARAES PALET": {
+    "foto": "/dosier/guimaraes-palets-foto.jpg",
+    "config": "/dosier/guimaraes-palets-config.jpg",
+    "dosier": "LEROY MERLIN GUIMARAES PALETS",
+    "status": "OK"
+  },
+  "LM LEIRIA": {
+    "foto": "/dosier/leiria-foto.jpg",
+    "config": "/dosier/leiria-config.jpg",
+    "dosier": "LEROY MERLIN LEIRIA",
+    "status": "OK"
+  },
+  "LM LOULE": {
+    "foto": "/dosier/loule-foto.jpg",
+    "config": "/dosier/loule-config.jpg",
+    "dosier": "LEROY MERLIN LOULE",
+    "status": "OK"
+  },
+  "LM LOURES": {
+    "foto": "/dosier/loures-foto.jpg",
+    "config": "/dosier/loures-config.jpg",
+    "dosier": "LEROY MERLIN LOURES",
+    "status": "OK"
+  },
+  "LM MAFRA": {
+    "foto": "/dosier/mafra-foto.jpg",
+    "config": "/dosier/mafra-config.jpg",
+    "dosier": "LEROY MERLIN MAFRA",
+    "status": "OK"
+  },
+  "LM MAIA EXTERIOR": {
+    "foto": "/dosier/maia-exterior-foto.jpg",
+    "config": "/dosier/maia-exterior-config.jpg",
+    "dosier": "LEROY MERLIN MAIA EXTERIOR",
+    "status": "OK"
+  },
+  "LM MAIA PALETS": {
+    "foto": "/dosier/maia-palets-foto.jpg",
+    "config": "/dosier/maia-palets-config.jpg",
+    "dosier": "LEROY MERLIN MAIA PALETS",
+    "status": "OK"
+  },
+  "LM MATOSINHOS EXTERIOR": {
+    "foto": "/dosier/matosinhos-exterior-foto.jpg",
+    "config": "/dosier/matosinhos-exterior-config.jpg",
+    "dosier": "LEROY MERLIN MATOSINHOS EXTERIOR",
+    "status": "OK"
+  },
+  "LM MATOSINHOS PALETS": {
+    "foto": "/dosier/matosinhos-palets-foto.jpg",
+    "config": "/dosier/matosinhos-palets-config.jpg",
+    "dosier": "LEROY MERLIN MATOSINHOS PALETS",
+    "status": "OK"
+  },
+  "LM MONTIJO": {
+    "foto": "/dosier/montijo-foto.jpg",
+    "config": "/dosier/montijo-config.jpg",
+    "dosier": "LEROY MERLIN MONTIJO",
+    "status": "OK"
+  },
+  "LM MONTIJO PALETS": {
+    "foto": "/dosier/montijo-palets-foto.jpg",
+    "config": "/dosier/montijo-palets-config.jpg",
+    "dosier": "LEROY MERLIN MONTIJO PALETS",
+    "status": "OK"
+  },
+  "LM OEIRAS": {
+    "foto": "/dosier/oeiras-foto.jpg",
+    "config": "/dosier/oeiras-config.jpg",
+    "dosier": "LEROY MERLIN OEIRAS",
+    "status": "OK"
+  },
+  "LM PENAFIEL": {
+    "foto": "/dosier/penafiel-foto.jpg",
+    "config": "/dosier/penafiel-config.jpg",
+    "dosier": "LEROY MERLIN PENAFIEL",
+    "status": "OK"
+  },
+  "LM PONTA DELGADA": {
+    "foto": "/dosier/ponta-delgada-foto.jpg",
+    "config": "/dosier/ponta-delgada-config.jpg",
+    "dosier": "LEROY MERLIN PONTA DELGADA",
+    "status": "OK"
+  },
+  "LM PORTIMAO EXTERIOR": {
+    "foto": "/dosier/portimao-exterior-foto.jpg",
+    "config": "/dosier/portimao-exterior-config.jpg",
+    "dosier": "LEROY MERLIN PORTIMAO EXTERIOR",
+    "status": "OK"
+  },
+  "LM PORTIMAO PALETS": {
+    "foto": "/dosier/portimao-palets-foto.jpg",
+    "config": "/dosier/portimao-palets-config.jpg",
+    "dosier": "LEROY MERLIN PORTIMAO PALETS",
+    "status": "OK"
+  },
+  "LM SACAVEM": {
+    "foto": "/dosier/sacavem-foto.jpg",
+    "config": "/dosier/sacavem-config.jpg",
+    "dosier": "LEROY MERLIN SACAVEM",
+    "status": "OK"
+  },
+  "LM  SANTA MARÍA DA FEIRA": {
+    "foto": "/dosier/santa-maria-da-feira-foto.jpg",
+    "config": "/dosier/santa-maria-da-feira-config.jpg",
+    "dosier": "LEROY MERLIN SANTA MARIA DA FEIRA",
+    "status": "OK"
+  },
+  "LM SANTAREM": {
+    "foto": "/dosier/santarem-foto.jpg",
+    "config": "/dosier/santarem-config.jpg",
+    "dosier": "LEROY MERLIN SANTAREM",
+    "status": "OK"
+  },
+  "LM SANTAREM PALETS": {
+    "foto": "/dosier/santarem-palets-foto.jpg",
+    "config": "/dosier/santarem-palets-config.jpg",
+    "dosier": "LEROY MERLIN SANTAREM PALETS",
+    "status": "OK"
+  },
+  "LM SETUBAL": {
+    "foto": "/dosier/setubal-foto.jpg",
+    "config": "/dosier/setubal-config.jpg",
+    "dosier": "LEROY MERLIN SETUBAL",
+    "status": "OK"
+  },
+  "LM SINTRA": {
+    "foto": "/dosier/sintra-foto.jpg",
+    "config": "/dosier/sintra-config.jpg",
+    "dosier": "LEROY MERLIN SINTRA",
+    "status": "OK"
+  },
+  "LM SINTRA PALETS": {
+    "foto": "/dosier/sintra-palets-foto.jpg",
+    "config": "/dosier/sintra-palets-config.jpg",
+    "dosier": "LEROY MERLIN SINTRA PALETS",
+    "status": "OK"
+  },
+  "LM TELHEIRAS": {
+    "foto": "/dosier/telheiras-foto.jpg",
+    "config": "/dosier/telheiras-config.jpg",
+    "dosier": "LEROY MERLIN TELHEIRAS",
+    "status": "OK"
+  },
+  "LM TORRES NOVAS": {
+    "foto": "/dosier/torres-novas-foto.jpg",
+    "config": "/dosier/torres-novas-config.jpg",
+    "dosier": "LEROY MERLIN TORRES NOVAS",
+    "status": "OK"
+  },
+  "LM TORRES VEFRAS": {
+    "foto": "/dosier/torres-vedras-foto.jpg",
+    "config": "/dosier/torres-vedras-config.jpg",
+    "dosier": "LEROY MERLIN TORRES VEDRAS",
+    "status": "OK"
+  },
+  "LM VIANA DO CASTELO": {
+    "foto": "/dosier/viana-do-castelo-foto.jpg",
+    "config": "/dosier/viana-do-castelo-config.jpg",
+    "dosier": "LEROY MERLIN VIANA DO CASTELO",
+    "status": "OK"
+  },
+  "LM VIANA DO CASTELO PALETS": {
+    "foto": "/dosier/viana-do-castelo-palets-foto.jpg",
+    "config": "/dosier/viana-do-castelo-palets-config.jpg",
+    "dosier": "LEROY MERLIN VIANA DO CASTELO PALETS",
+    "status": "OK"
+  },
+  "LM VISEU": {
+    "foto": "/dosier/viseu-foto.jpg",
+    "config": "/dosier/viseu-config.jpg",
+    "dosier": "LEROY MERLIN VISEU",
+    "status": "OK"
+  }
+}
