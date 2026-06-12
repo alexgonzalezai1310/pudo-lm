@@ -296,6 +296,7 @@ function Index() {
           <LockerPanel
             locker={selectedLocker.locker}
             location={selectedLocker.location}
+            dosier={dosier[selectedLocker.locker.nombre]}
             onClose={() => setSelectedLocker(null)}
           />
         </Overlay>
