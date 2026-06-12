@@ -7,10 +7,10 @@ import { useAuth } from "@/lib/auth";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PUDO · Locker Network" },
-      { name: "description", content: "Interactive map of the PUDO locker network across Portugal." },
-      { property: "og:title", content: "PUDO · Locker Network" },
-      { property: "og:description", content: "Interactive map of the PUDO locker network across Portugal." },
+      { title: "PUDO & Leroy Merlin · Locker Network" },
+      { name: "description", content: "Mapa interactivo de la red de lockers PUDO & Leroy Merlin en Portugal." },
+      { property: "og:title", content: "PUDO & Leroy Merlin · Locker Network" },
+      { property: "og:description", content: "Mapa interactivo de la red de lockers PUDO & Leroy Merlin en Portugal." },
     ],
   }),
   component: Index,
