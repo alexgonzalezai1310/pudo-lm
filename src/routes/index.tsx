@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
+import leroyLogo from "@/assets/leroy_merlin.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -93,7 +94,7 @@ function Index() {
 
     const icon = L.divIcon({
       className: "",
-      html: `<div class="pudo-marker">${lockerIconSvg()}</div>`,
+      html: `<div class="pudo-marker"><img src="${leroyLogo.url}" alt="Leroy Merlin" /></div>`,
       iconSize: [0, 0],
       iconAnchor: [0, 0],
     });
