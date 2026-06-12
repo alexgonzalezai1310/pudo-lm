@@ -70,6 +70,10 @@ function Index() {
       .then((r) => r.json())
       .then((d: Location[]) => setLocations(d))
       .catch((e) => console.error("Failed to load lockers", e));
+    fetch("/dosier/mapping.json")
+      .then((r) => r.json())
+      .then((d: DosierMap) => setDosier(d))
+      .catch((e) => console.error("Failed to load dosier mapping", e));
   }, []);
 
   // Init map
