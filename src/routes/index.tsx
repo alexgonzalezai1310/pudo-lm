@@ -49,12 +49,16 @@ function lockerIconSvg() {
   return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18"/><path d="M12 3v18"/><circle cx="7.5" cy="7.5" r="0.5" fill="currentColor"/><circle cx="16.5" cy="7.5" r="0.5" fill="currentColor"/><circle cx="7.5" cy="16.5" r="0.5" fill="currentColor"/><circle cx="16.5" cy="16.5" r="0.5" fill="currentColor"/></svg>`;
 }
 
+type DosierEntry = { foto: string | null; config: string | null; dosier: string | null; status: string };
+type DosierMap = Record<string, DosierEntry>;
+
 function Index() {
   const { email, logout } = useAuth();
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInst = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const [locations, setLocations] = useState<Location[]>([]);
+  const [dosier, setDosier] = useState<DosierMap>({});
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedLocker, setSelectedLocker] = useState<{ locker: Locker; location: Location } | null>(null);
   const [search, setSearch] = useState("");
