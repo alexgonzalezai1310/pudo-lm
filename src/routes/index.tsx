@@ -49,16 +49,12 @@ function lockerIconSvg() {
   return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18"/><path d="M12 3v18"/><circle cx="7.5" cy="7.5" r="0.5" fill="currentColor"/><circle cx="16.5" cy="7.5" r="0.5" fill="currentColor"/><circle cx="7.5" cy="16.5" r="0.5" fill="currentColor"/><circle cx="16.5" cy="16.5" r="0.5" fill="currentColor"/></svg>`;
 }
 
-type DosierEntry = { foto: string | null; config: string | null; dosier: string | null; status: string };
-type DosierMap = Record<string, DosierEntry>;
-
 function Index() {
   const { email, logout } = useAuth();
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInst = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const [locations, setLocations] = useState<Location[]>([]);
-  const [dosier, setDosier] = useState<DosierMap>({});
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedLocker, setSelectedLocker] = useState<{ locker: Locker; location: Location } | null>(null);
   const [search, setSearch] = useState("");
@@ -70,10 +66,6 @@ function Index() {
       .then((r) => r.json())
       .then((d: Location[]) => setLocations(d))
       .catch((e) => console.error("Failed to load lockers", e));
-    fetch("/dosier/mapping.json")
-      .then((r) => r.json())
-      .then((d: DosierMap) => setDosier(d))
-      .catch((e) => console.error("Failed to load dosier mapping", e));
   }, []);
 
   // Init map
@@ -296,7 +288,6 @@ function Index() {
           <LockerPanel
             locker={selectedLocker.locker}
             location={selectedLocker.location}
-            dosier={dosier[selectedLocker.locker.nombre]}
             onClose={() => setSelectedLocker(null)}
           />
         </Overlay>
@@ -330,22 +321,18 @@ function Overlay({ children, onClose }: { children: React.ReactNode; onClose: ()
 function LockerPanel({
   locker,
   location,
-  dosier,
   onClose,
 }: {
   locker: Locker;
   location: Location;
-  dosier?: DosierEntry;
   onClose: () => void;
 }) {
   const modules = (["TC", "A1", "A3", "D7", "HT12", "BL", "BL_LM"] as const)
     .map((k) => ({ k, v: locker[k] }))
     .filter((m) => m.v > 0);
 
-  const hasDosier = dosier && dosier.status === "OK" && dosier.foto && dosier.config;
-
   return (
-    <div className="flex max-h-[90vh] w-full max-w-2xl flex-col rounded-t-2xl border border-border bg-surface-elevated shadow-2xl sm:rounded-xl">
+    <div className="flex max-h-[90vh] w-full max-w-lg flex-col rounded-t-2xl border border-border bg-surface-elevated shadow-2xl sm:rounded-xl">
       <div className="flex items-start justify-between gap-4 border-b border-border p-5">
         <div className="flex-1">
           <div className="flex items-center gap-2">
@@ -375,41 +362,6 @@ function LockerPanel({
             {location.codigo_postal} · {location.ciudad}
           </div>
         </Section>
-
-        {hasDosier ? (
-          <Section title="Dosier Mayo 2026">
-            <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-              <figure className="overflow-hidden rounded-md border border-border bg-background">
-                <img
-                  src={dosier!.foto!}
-                  alt={`Foto final · ${locker.nombre}`}
-                  loading="lazy"
-                  className="block h-auto w-full"
-                />
-                <figcaption className="border-t border-border px-2 py-1 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
-                  Foto final
-                </figcaption>
-              </figure>
-              <figure className="overflow-hidden rounded-md border border-border bg-background">
-                <img
-                  src={dosier!.config!}
-                  alt={`Configuración Mayo 2026 · ${locker.nombre}`}
-                  loading="lazy"
-                  className="block h-auto w-full"
-                />
-                <figcaption className="border-t border-border px-2 py-1 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
-                  Configuración Mayo 2026
-                </figcaption>
-              </figure>
-            </div>
-          </Section>
-        ) : (
-          <Section title="Dosier Mayo 2026">
-            <div className="rounded-md border border-dashed border-border bg-background/40 px-3 py-2 text-xs text-muted-foreground">
-              Pendiente de revisión — no se encontró coincidencia clara en el dosier.
-            </div>
-          </Section>
-        )}
 
         <Section title="Configuration">
           <pre className="overflow-x-auto rounded-md border border-border bg-background p-3 font-mono text-xs leading-relaxed text-primary">
