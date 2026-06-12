@@ -376,6 +376,41 @@ function LockerPanel({
           </div>
         </Section>
 
+        {hasDosier ? (
+          <Section title="Dosier Mayo 2026">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+              <figure className="overflow-hidden rounded-md border border-border bg-background">
+                <img
+                  src={dosier!.foto!}
+                  alt={`Foto final · ${locker.nombre}`}
+                  loading="lazy"
+                  className="block h-auto w-full"
+                />
+                <figcaption className="border-t border-border px-2 py-1 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                  Foto final
+                </figcaption>
+              </figure>
+              <figure className="overflow-hidden rounded-md border border-border bg-background">
+                <img
+                  src={dosier!.config!}
+                  alt={`Configuración Mayo 2026 · ${locker.nombre}`}
+                  loading="lazy"
+                  className="block h-auto w-full"
+                />
+                <figcaption className="border-t border-border px-2 py-1 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                  Configuración Mayo 2026
+                </figcaption>
+              </figure>
+            </div>
+          </Section>
+        ) : (
+          <Section title="Dosier Mayo 2026">
+            <div className="rounded-md border border-dashed border-border bg-background/40 px-3 py-2 text-xs text-muted-foreground">
+              Pendiente de revisión — no se encontró coincidencia clara en el dosier.
+            </div>
+          </Section>
+        )}
+
         <Section title="Configuration">
           <pre className="overflow-x-auto rounded-md border border-border bg-background p-3 font-mono text-xs leading-relaxed text-primary">
             {locker.configuracion}
