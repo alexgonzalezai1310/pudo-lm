@@ -276,7 +276,7 @@ function Index() {
               onClick={() => setSelectedLocation(null)}
               className="mt-4 w-full rounded-md border border-border py-2 text-sm text-muted-foreground hover:bg-surface"
             >
-              Close
+              Cerrar
             </button>
           </div>
         </Overlay>
