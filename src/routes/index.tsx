@@ -205,13 +205,13 @@ function Index() {
         >
           <div className="border-b border-border p-4">
             <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-              Search location
+              Buscar ubicación
             </label>
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="City or store name…"
+              placeholder="Ciudad o nombre de tienda…"
               className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
