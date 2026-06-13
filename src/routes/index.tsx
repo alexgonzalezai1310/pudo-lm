@@ -156,7 +156,7 @@ function Index() {
           <button
             onClick={() => setSidebarOpen((s) => !s)}
             className="rounded-md border border-border bg-surface p-2 text-primary hover:bg-surface-elevated md:hidden"
-            aria-label="Toggle locations"
+            aria-label="Mostrar ubicaciones"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
           </button>
