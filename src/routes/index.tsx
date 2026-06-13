@@ -383,13 +383,13 @@ function LockerPanel({
           </div>
         </Section>
 
-        <Section title="Monthly fee">
+        <Section title="Cuota mensual">
           <div className="flex items-baseline gap-2 rounded-md border border-primary/30 bg-primary/10 p-4">
             <span className="font-display text-3xl font-bold text-primary">
-              {locker.mensalidade_eur.toLocaleString("pt-PT", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              {locker.mensalidade_eur.toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </span>
             <span className="text-lg text-primary">€</span>
-            <span className="ml-auto text-xs text-muted-foreground">per month</span>
+            <span className="ml-auto text-xs text-muted-foreground">al mes</span>
           </div>
         </Section>
       </div>
@@ -399,7 +399,7 @@ function LockerPanel({
           onClick={onClose}
           className="w-full rounded-md bg-primary py-2.5 font-semibold text-primary-foreground transition-colors hover:bg-accent"
         >
-          Back to map
+          Volver al mapa
         </button>
       </div>
     </div>
