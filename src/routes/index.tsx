@@ -363,13 +363,13 @@ function LockerPanel({
           </div>
         </Section>
 
-        <Section title="Configuration">
+        <Section title="Configuración">
           <pre className="overflow-x-auto rounded-md border border-border bg-background p-3 font-mono text-xs leading-relaxed text-primary">
             {locker.configuracion}
           </pre>
         </Section>
 
-        <Section title="Module breakdown">
+        <Section title="Desglose de módulos">
           <div className="grid grid-cols-2 gap-2">
             {modules.map(({ k, v }) => (
               <div
