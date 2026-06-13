@@ -36,13 +36,13 @@ type Location = {
 };
 
 const MODULE_LABELS: Record<string, string> = {
-  TC: "TC · Touch screen",
-  A1: "A1 · Small",
-  A3: "A3 · Medium",
-  D7: "D7 · Large",
+  TC: "TC · Pantalla táctil",
+  A1: "A1 · Pequeño",
+  A3: "A3 · Mediano",
+  D7: "D7 · Grande",
   HT12: "HT12 · XL",
-  BL: "BL · Pallet",
-  BL_LM: "BL LM · Pallet LM",
+  BL: "BL · Palet",
+  BL_LM: "BL LM · Palet LM",
 };
 
 function lockerIconSvg() {
