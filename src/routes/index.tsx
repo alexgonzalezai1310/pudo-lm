@@ -234,7 +234,7 @@ function Index() {
               </button>
             ))}
             {filtered.length === 0 && (
-              <div className="p-6 text-center text-sm text-muted-foreground">No locations found.</div>
+              <div className="p-6 text-center text-sm text-muted-foreground">No se encontraron ubicaciones.</div>
             )}
           </div>
         </aside>
