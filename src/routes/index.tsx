@@ -36,13 +36,13 @@ type Location = {
 };
 
 const MODULE_LABELS: Record<string, string> = {
-  TC: "TC · Touch screen",
-  A1: "A1 · Small",
-  A3: "A3 · Medium",
-  D7: "D7 · Large",
+  TC: "TC · Pantalla táctil",
+  A1: "A1 · Pequeño",
+  A3: "A3 · Mediano",
+  D7: "D7 · Grande",
   HT12: "HT12 · XL",
-  BL: "BL · Pallet",
-  BL_LM: "BL LM · Pallet LM",
+  BL: "BL · Palet",
+  BL_LM: "BL LM · Palet LM",
 };
 
 function lockerIconSvg() {
@@ -156,7 +156,7 @@ function Index() {
           <button
             onClick={() => setSidebarOpen((s) => !s)}
             className="rounded-md border border-border bg-surface p-2 text-primary hover:bg-surface-elevated md:hidden"
-            aria-label="Toggle locations"
+            aria-label="Mostrar ubicaciones"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
           </button>
@@ -165,11 +165,11 @@ function Index() {
               <BrandLogos size={26} gap={10} />
             </div>
             <BrandText className="font-display text-lg font-bold tracking-tight md:text-xl" />
-            <span className="hidden text-sm font-medium text-muted-foreground lg:inline">/ Locker Network</span>
+            <span className="hidden text-sm font-medium text-muted-foreground lg:inline">/ Red de Lockers</span>
           </div>
         </div>
         <div className="flex items-center gap-2 md:gap-4">
-          <Stat label="Locations" value={locations.length} />
+          <Stat label="Ubicaciones" value={locations.length} />
           <div className="h-6 w-px bg-border" />
           <Stat label="Lockers" value={totalLockers} />
           <div className="h-6 w-px bg-border" />
@@ -205,13 +205,13 @@ function Index() {
         >
           <div className="border-b border-border p-4">
             <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-              Search location
+              Buscar ubicación
             </label>
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="City or store name…"
+              placeholder="Ciudad o nombre de tienda…"
               className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
@@ -234,7 +234,7 @@ function Index() {
               </button>
             ))}
             {filtered.length === 0 && (
-              <div className="p-6 text-center text-sm text-muted-foreground">No locations found.</div>
+              <div className="p-6 text-center text-sm text-muted-foreground">No se encontraron ubicaciones.</div>
             )}
           </div>
         </aside>
@@ -250,7 +250,7 @@ function Index() {
         <Overlay onClose={() => setSelectedLocation(null)}>
           <div className="w-full max-w-md rounded-xl border border-border bg-surface-elevated p-6 shadow-2xl">
             <div className="mb-4">
-              <div className="text-xs font-semibold uppercase tracking-wider text-primary">Choose a locker</div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-primary">Elige un locker</div>
               <h2 className="mt-1 font-display text-xl font-bold">{selectedLocation.tienda_oficial}</h2>
               <p className="mt-1 text-sm text-muted-foreground">{selectedLocation.direccion}</p>
             </div>
@@ -276,7 +276,7 @@ function Index() {
               onClick={() => setSelectedLocation(null)}
               className="mt-4 w-full rounded-md border border-border py-2 text-sm text-muted-foreground hover:bg-surface"
             >
-              Close
+              Cerrar
             </button>
           </div>
         </Overlay>
@@ -348,14 +348,14 @@ function LockerPanel({
         <button
           onClick={onClose}
           className="rounded-md border border-border p-2 text-muted-foreground hover:bg-surface hover:text-foreground"
-          aria-label="Close"
+          aria-label="Cerrar"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
         </button>
       </div>
 
       <div className="flex-1 overflow-y-auto p-5">
-        <Section title="Location">
+        <Section title="Ubicación">
           <div className="text-sm font-medium">{location.tienda_oficial}</div>
           <div className="mt-1 text-sm text-muted-foreground">{location.direccion}</div>
           <div className="text-sm text-muted-foreground">
@@ -363,13 +363,13 @@ function LockerPanel({
           </div>
         </Section>
 
-        <Section title="Configuration">
+        <Section title="Configuración">
           <pre className="overflow-x-auto rounded-md border border-border bg-background p-3 font-mono text-xs leading-relaxed text-primary">
             {locker.configuracion}
           </pre>
         </Section>
 
-        <Section title="Module breakdown">
+        <Section title="Desglose de módulos">
           <div className="grid grid-cols-2 gap-2">
             {modules.map(({ k, v }) => (
               <div
@@ -383,13 +383,13 @@ function LockerPanel({
           </div>
         </Section>
 
-        <Section title="Monthly fee">
+        <Section title="Cuota mensual">
           <div className="flex items-baseline gap-2 rounded-md border border-primary/30 bg-primary/10 p-4">
             <span className="font-display text-3xl font-bold text-primary">
-              {locker.mensalidade_eur.toLocaleString("pt-PT", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              {locker.mensalidade_eur.toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </span>
             <span className="text-lg text-primary">€</span>
-            <span className="ml-auto text-xs text-muted-foreground">per month</span>
+            <span className="ml-auto text-xs text-muted-foreground">al mes</span>
           </div>
         </Section>
       </div>
@@ -399,7 +399,7 @@ function LockerPanel({
           onClick={onClose}
           className="w-full rounded-md bg-primary py-2.5 font-semibold text-primary-foreground transition-colors hover:bg-accent"
         >
-          Back to map
+          Volver al mapa
         </button>
       </div>
     </div>
