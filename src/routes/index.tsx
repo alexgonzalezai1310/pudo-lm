@@ -355,7 +355,7 @@ function LockerPanel({
       </div>
 
       <div className="flex-1 overflow-y-auto p-5">
-        <Section title="Location">
+        <Section title="Ubicación">
           <div className="text-sm font-medium">{location.tienda_oficial}</div>
           <div className="mt-1 text-sm text-muted-foreground">{location.direccion}</div>
           <div className="text-sm text-muted-foreground">
