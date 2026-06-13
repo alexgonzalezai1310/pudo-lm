@@ -250,7 +250,7 @@ function Index() {
         <Overlay onClose={() => setSelectedLocation(null)}>
           <div className="w-full max-w-md rounded-xl border border-border bg-surface-elevated p-6 shadow-2xl">
             <div className="mb-4">
-              <div className="text-xs font-semibold uppercase tracking-wider text-primary">Choose a locker</div>
+              <div className="text-xs font-semibold uppercase tracking-wider text-primary">Elige un locker</div>
               <h2 className="mt-1 font-display text-xl font-bold">{selectedLocation.tienda_oficial}</h2>
               <p className="mt-1 text-sm text-muted-foreground">{selectedLocation.direccion}</p>
             </div>
