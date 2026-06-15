@@ -434,14 +434,19 @@ function LockerPanel({
   );
 }
 
-function LockerImage({ title, src, alt }: { title: string; src: string | null; alt: string }) {
+function LockerImage({ title, src, alt, onClick }: { title: string; src: string | null; alt: string; onClick?: (src: string) => void }) {
   const [errored, setErrored] = useState(false);
   return (
     <div className="flex flex-col">
       <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
         {title}
       </div>
-      <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-md border border-border bg-background">
+      <div
+        className={`flex aspect-[4/3] items-center justify-center overflow-hidden rounded-md border border-border bg-background ${onClick && src ? "cursor-pointer" : ""}`}
+        onClick={() => {
+          if (onClick && src) onClick(src);
+        }}
+      >
         {src && !errored ? (
           <img
             src={src}
