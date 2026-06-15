@@ -292,8 +292,14 @@ function Index() {
             locker={selectedLocker.locker}
             location={selectedLocker.location}
             onClose={() => setSelectedLocker(null)}
+            onImageClick={(src) => setLightboxImage(src)}
           />
         </Overlay>
+      )}
+
+      {/* Image lightbox */}
+      {lightboxImage && (
+        <ImageLightbox src={lightboxImage} onClose={() => setLightboxImage(null)} />
       )}
     </div>
   );
