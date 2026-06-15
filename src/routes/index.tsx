@@ -61,6 +61,7 @@ function Index() {
   const [selectedLocker, setSelectedLocker] = useState<{ locker: Locker; location: Location } | null>(null);
   const [search, setSearch] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   // Load data
   useEffect(() => {
@@ -291,8 +292,14 @@ function Index() {
             locker={selectedLocker.locker}
             location={selectedLocker.location}
             onClose={() => setSelectedLocker(null)}
+            onImageClick={(src) => setLightboxImage(src)}
           />
         </Overlay>
+      )}
+
+      {/* Image lightbox */}
+      {lightboxImage && (
+        <ImageLightbox src={lightboxImage} onClose={() => setLightboxImage(null)} />
       )}
     </div>
   );
@@ -324,10 +331,12 @@ function LockerPanel({
   locker,
   location,
   onClose,
+  onImageClick,
 }: {
   locker: Locker;
   location: Location;
   onClose: () => void;
+  onImageClick?: (src: string) => void;
 }) {
   const modules = (["TC", "A1", "A3", "D7", "HT12", "BL", "BL_LM"] as const)
     .map((k) => ({ k, v: locker[k] }))
@@ -363,11 +372,13 @@ function LockerPanel({
               title="Foto de instalación"
               src={locker.photo_file ? `/locker_photos/${locker.photo_file}` : null}
               alt={`Foto de ${locker.nombre}`}
+              onClick={onImageClick}
             />
             <LockerImage
               title="Configuración"
               src={locker.config_file ? `/locker_configs/${locker.config_file}` : null}
               alt={`Configuración de ${locker.nombre}`}
+              onClick={onImageClick}
             />
           </div>
         </Section>
@@ -423,14 +434,19 @@ function LockerPanel({
   );
 }
 
-function LockerImage({ title, src, alt }: { title: string; src: string | null; alt: string }) {
+function LockerImage({ title, src, alt, onClick }: { title: string; src: string | null; alt: string; onClick?: (src: string) => void }) {
   const [errored, setErrored] = useState(false);
   return (
     <div className="flex flex-col">
       <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
         {title}
       </div>
-      <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-md border border-border bg-background">
+      <div
+        className={`flex aspect-[4/3] items-center justify-center overflow-hidden rounded-md border border-border bg-background ${onClick && src ? "cursor-pointer" : ""}`}
+        onClick={() => {
+          if (onClick && src) onClick(src);
+        }}
+      >
         {src && !errored ? (
           <img
             src={src}
@@ -445,6 +461,31 @@ function LockerImage({ title, src, alt }: { title: string; src: string | null; a
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+function ImageLightbox({ src, onClose }: { src: string; onClose: () => void }) {
+  return (
+    <div
+      className="fixed inset-0 z-[3000] flex items-center justify-center bg-black/90 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <div className="relative max-h-[90vh] max-w-[90vw]">
+        <img
+          src={src}
+          alt="Imagen ampliada"
+          className="max-h-[90vh] max-w-[90vw] rounded-lg object-contain shadow-2xl"
+          onClick={(e) => e.stopPropagation()}
+        />
+      </div>
+      <button
+        onClick={onClose}
+        className="absolute right-4 top-4 rounded-full bg-black/50 p-2 text-white hover:bg-black/70"
+        aria-label="Cerrar"
+      >
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
     </div>
   );
 }
