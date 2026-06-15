@@ -357,6 +357,21 @@ function LockerPanel({
       </div>
 
       <div className="flex-1 overflow-y-auto p-5">
+        <Section title="Imágenes del locker">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <LockerImage
+              title="Foto de instalación"
+              src={locker.photo_file ? `/locker_photos/${locker.photo_file}` : null}
+              alt={`Foto de ${locker.nombre}`}
+            />
+            <LockerImage
+              title="Configuración"
+              src={locker.config_file ? `/locker_configs/${locker.config_file}` : null}
+              alt={`Configuración de ${locker.nombre}`}
+            />
+          </div>
+        </Section>
+
         <Section title="Ubicación">
           <div className="text-sm font-medium">{location.tienda_oficial}</div>
           <div className="mt-1 text-sm text-muted-foreground">{location.direccion}</div>
