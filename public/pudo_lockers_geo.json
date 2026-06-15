@@ -413,7 +413,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": null,
+        "photo_file": "LEROY_MERLIN_BRAGANCA_photo.png",
         "config_file": "LEROY_MERLIN_BRAGANÇA_config.png"
       }
     ],
@@ -1302,7 +1302,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_SINTRA_photo.wmf",
+        "photo_file": "LEROY_MERLIN_SINTRA_photo_new.png",
         "config_file": "LEROY_MERLIN_SINTRA_config.png"
       },
       {
