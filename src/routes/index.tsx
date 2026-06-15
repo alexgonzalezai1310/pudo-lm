@@ -23,6 +23,8 @@ type Locker = {
   configuracion: string;
   mensalidade_eur: number;
   TC: number; A1: number; A3: number; D7: number; HT12: number; BL: number; BL_LM: number;
+  photo_file?: string | null;
+  config_file?: string | null;
 };
 type Location = {
   id: string;
