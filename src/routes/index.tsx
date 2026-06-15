@@ -423,6 +423,32 @@ function LockerPanel({
   );
 }
 
+function LockerImage({ title, src, alt }: { title: string; src: string | null; alt: string }) {
+  const [errored, setErrored] = useState(false);
+  return (
+    <div className="flex flex-col">
+      <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+        {title}
+      </div>
+      <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-md border border-border bg-background">
+        {src && !errored ? (
+          <img
+            src={src}
+            alt={alt}
+            loading="lazy"
+            onError={() => setErrored(true)}
+            className="h-full w-full object-contain"
+          />
+        ) : (
+          <div className="px-3 text-center text-xs text-muted-foreground">
+            Sin imagen disponible
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-5 last:mb-0">
