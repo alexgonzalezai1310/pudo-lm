@@ -23,6 +23,8 @@ type Locker = {
   configuracion: string;
   mensalidade_eur: number;
   TC: number; A1: number; A3: number; D7: number; HT12: number; BL: number; BL_LM: number;
+  photo_file?: string | null;
+  config_file?: string | null;
 };
 type Location = {
   id: string;
@@ -355,6 +357,21 @@ function LockerPanel({
       </div>
 
       <div className="flex-1 overflow-y-auto p-5">
+        <Section title="Imágenes del locker">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <LockerImage
+              title="Foto de instalación"
+              src={locker.photo_file ? `/locker_photos/${locker.photo_file}` : null}
+              alt={`Foto de ${locker.nombre}`}
+            />
+            <LockerImage
+              title="Configuración"
+              src={locker.config_file ? `/locker_configs/${locker.config_file}` : null}
+              alt={`Configuración de ${locker.nombre}`}
+            />
+          </div>
+        </Section>
+
         <Section title="Ubicación">
           <div className="text-sm font-medium">{location.tienda_oficial}</div>
           <div className="mt-1 text-sm text-muted-foreground">{location.direccion}</div>
@@ -401,6 +418,32 @@ function LockerPanel({
         >
           Volver al mapa
         </button>
+      </div>
+    </div>
+  );
+}
+
+function LockerImage({ title, src, alt }: { title: string; src: string | null; alt: string }) {
+  const [errored, setErrored] = useState(false);
+  return (
+    <div className="flex flex-col">
+      <div className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+        {title}
+      </div>
+      <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-md border border-border bg-background">
+        {src && !errored ? (
+          <img
+            src={src}
+            alt={alt}
+            loading="lazy"
+            onError={() => setErrored(true)}
+            className="h-full w-full object-contain"
+          />
+        ) : (
+          <div className="px-3 text-center text-xs text-muted-foreground">
+            Sin imagen disponible
+          </div>
+        )}
       </div>
     </div>
   );
