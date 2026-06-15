@@ -61,6 +61,7 @@ function Index() {
   const [selectedLocker, setSelectedLocker] = useState<{ locker: Locker; location: Location } | null>(null);
   const [search, setSearch] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   // Load data
   useEffect(() => {
