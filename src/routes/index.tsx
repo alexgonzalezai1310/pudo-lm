@@ -372,11 +372,13 @@ function LockerPanel({
               title="Foto de instalación"
               src={locker.photo_file ? `/locker_photos/${locker.photo_file}` : null}
               alt={`Foto de ${locker.nombre}`}
+              onClick={onImageClick}
             />
             <LockerImage
               title="Configuración"
               src={locker.config_file ? `/locker_configs/${locker.config_file}` : null}
               alt={`Configuración de ${locker.nombre}`}
+              onClick={onImageClick}
             />
           </div>
         </Section>
