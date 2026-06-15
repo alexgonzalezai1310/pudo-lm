@@ -331,10 +331,12 @@ function LockerPanel({
   locker,
   location,
   onClose,
+  onImageClick,
 }: {
   locker: Locker;
   location: Location;
   onClose: () => void;
+  onImageClick?: (src: string) => void;
 }) {
   const modules = (["TC", "A1", "A3", "D7", "HT12", "BL", "BL_LM"] as const)
     .map((k) => ({ k, v: locker[k] }))
