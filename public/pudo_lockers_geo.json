@@ -558,7 +558,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CHAVES_photo.wmf",
+        "photo_file": "LEROY_MERLIN_CHAVES_photo_new.png",
         "config_file": "LEROY_MERLIN_CHAVES_config.png"
       }
     ],
@@ -1317,7 +1317,7 @@
         "HT12": 0,
         "BL": 6,
         "BL_LM": 4,
-        "photo_file": "LEROY_MERLIN_SINTRA_PALETS_photo.jpg",
+        "photo_file": "LEROY_MERLIN_SINTRA_PALETS_photo_new.png",
         "config_file": "LEROY_MERLIN_SINTRA_PALETS_config.png"
       }
     ],
@@ -1462,7 +1462,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": null,
+        "photo_file": "LEROY_MERLIN_VISEU_photo.png",
         "config_file": "LEROY_MERLIN_VISEU_config.png"
       }
     ],
