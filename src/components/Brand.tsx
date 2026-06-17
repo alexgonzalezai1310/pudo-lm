@@ -1,5 +1,5 @@
-import pudoLogo from "@/assets/logos/pudo_logo.png.asset.json";
-import leroyLogo from "@/assets/logos/leroy_merlin_logo.png.asset.json";
+const pudoLogo = "/logos/pudo_logo.png";
+const leroyLogo = "/logos/leroy_merlin_logo.png";
 
 export const LEROY_GREEN = "#7AC143";
 
@@ -7,7 +7,7 @@ export function BrandLogos({ size = 28, gap = 10 }: { size?: number; gap?: numbe
   return (
     <div className="flex items-center" style={{ gap }}>
       <img
-        src={pudoLogo.url}
+        src={pudoLogo}
         alt="PUDO"
         style={{ height: size, width: "auto", objectFit: "contain" }}
       />
@@ -16,7 +16,7 @@ export function BrandLogos({ size = 28, gap = 10 }: { size?: number; gap?: numbe
         style={{ height: size * 0.7, width: 1, background: "rgba(255,255,255,0.2)" }}
       />
       <img
-        src={leroyLogo.url}
+        src={leroyLogo}
         alt="Leroy Merlin"
         style={{ height: size, width: "auto", objectFit: "contain" }}
       />
