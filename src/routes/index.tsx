@@ -255,8 +255,48 @@ function Index() {
         </aside>
 
         {/* Map */}
-        <main className="relative flex-1">
+        <main className={`relative flex-1 ${mapTheme === "light" ? "map-theme-light" : ""}`}>
           <div ref={mapRef} className="h-full w-full" />
+          {/* Theme toggle */}
+          <div className="absolute top-3 right-3 z-[500] flex overflow-hidden rounded-lg border border-border bg-surface-elevated shadow-lg">
+            <button
+              onClick={() => setMapTheme("dark")}
+              className={`flex items-center justify-center px-2.5 py-2 transition-colors ${
+                mapTheme === "dark"
+                  ? "bg-primary/15 text-primary"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              aria-label="Modo oscuro"
+              title="Modo oscuro"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </button>
+            <div className="w-px bg-border" />
+            <button
+              onClick={() => setMapTheme("light")}
+              className={`flex items-center justify-center px-2.5 py-2 transition-colors ${
+                mapTheme === "light"
+                  ? "bg-primary/15 text-primary"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              aria-label="Modo claro"
+              title="Modo claro"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.41 1.41" />
+                <path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m6.34 17.66-1.41 1.41" />
+                <path d="m19.07 4.93-1.41 1.41" />
+              </svg>
+            </button>
+          </div>
         </main>
       </div>
 
