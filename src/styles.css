@@ -79,6 +79,9 @@
 .pudo-popup-title { font-weight: 700; color: var(--primary); font-size: 13px; margin-bottom: 4px; }
 .pudo-popup-address { font-size: 12px; color: var(--muted-foreground); line-height: 1.4; }
 .pudo-popup-count { font-size: 11px; color: var(--muted-foreground); margin-top: 6px; }
+.map-theme-light .pudo-popup-title { color: oklch(0.55 0.12 250); }
+.map-theme-light .pudo-popup-address { color: oklch(0.45 0.01 280); }
+.map-theme-light .pudo-popup-count { color: oklch(0.45 0.01 280); }
 
 /* Leaflet light theme overrides (only map) */
 .map-theme-light .leaflet-container {
