@@ -120,10 +120,10 @@ function Index() {
     locations.forEach((loc) => {
       const m = L.marker([loc.lat, loc.lng], { icon }).addTo(map);
       m.bindPopup(
-        `<div style="min-width:180px">
-          <div style="font-weight:700;color:var(--primary);font-size:13px;margin-bottom:4px">${loc.tienda_oficial}</div>
-          <div style="font-size:12px;color:var(--muted-foreground);line-height:1.4">${loc.direccion}</div>
-          <div style="font-size:11px;color:var(--muted-foreground);margin-top:6px">${loc.lockers.length} locker${loc.lockers.length > 1 ? "s" : ""}</div>
+        `<div class="pudo-popup">
+          <div class="pudo-popup-title">${loc.tienda_oficial}</div>
+          <div class="pudo-popup-address">${loc.direccion}</div>
+          <div class="pudo-popup-count">${loc.lockers.length} locker${loc.lockers.length > 1 ? "s" : ""}</div>
         </div>`,
         { closeButton: false }
       );
