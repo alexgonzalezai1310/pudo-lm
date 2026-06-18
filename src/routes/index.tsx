@@ -82,7 +82,7 @@ function Index() {
       zoomControl: true,
       attributionControl: true,
     });
-    L.tileLayer(
+    tileLayerRef.current = L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
       {
         attribution: '&copy; OpenStreetMap &copy; CARTO',
@@ -92,6 +92,16 @@ function Index() {
     ).addTo(map);
     mapInst.current = map;
   }, []);
+
+  // Switch tile theme
+  useEffect(() => {
+    if (!tileLayerRef.current) return;
+    const url =
+      mapTheme === "dark"
+        ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        : "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+    tileLayerRef.current.setUrl(url);
+  }, [mapTheme]);
 
   // Render markers
   useEffect(() => {
