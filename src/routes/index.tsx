@@ -99,12 +99,9 @@ function Index() {
     const url =
       mapTheme === "dark"
         ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-        : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+        : "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png";
     tileLayerRef.current.setUrl(url);
-    tileLayerRef.current.options.attribution =
-      mapTheme === "dark"
-        ? '&copy; OpenStreetMap &copy; CARTO'
-        : '&copy; OpenStreetMap contributors';
+    tileLayerRef.current.options.attribution = '&copy; OpenStreetMap &copy; CARTO';
   }, [mapTheme]);
 
   // Render markers
