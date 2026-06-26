@@ -50,7 +50,7 @@
       {
         "nombre": "LM ALFRAGIDE EXTERIOR A",
         "numero": 6,
-        "configuracion": "1/1/1/1/3/3/3/3/3/TC/3/3/3/3/3/3/3/7/7",
+        "configuracion": "A1/A1/A1/A1/A3/A3/A3/A3/A3/TC/A3/A3/A3/A3/A3/A3/A3/D7",
         "mensalidade_eur": 478.44,
         "TC": 1,
         "A1": 4,
@@ -65,7 +65,7 @@
       {
         "nombre": "LM ALFRAGIDE EXTERIOR B",
         "numero": 7,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "D7/A1/A1/A1/A1/TC/A3/A3/A3/A3/A3/A3/A3",
         "mensalidade_eur": 692.72,
         "TC": 1,
         "A1": 4,
@@ -80,7 +80,7 @@
       {
         "nombre": "LM ALFRAGIDE PALETS A",
         "numero": 8,
-        "configuracion": "TC/5 JAULAS ANTIGUAS + 10 JAULAS NUEVAS + 10 JAULAS NUEVAS",
+        "configuracion": "TC/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL",
         "mensalidade_eur": 525.63,
         "TC": 1,
         "A1": 0,
@@ -95,7 +95,7 @@
       {
         "nombre": "LM ALFRAGIDE PALETS B",
         "numero": 9,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "TC/JL/JL/JL/JL/JL/JL/JL/JL/JL/JL",
         "mensalidade_eur": 475.06,
         "TC": 1,
         "A1": 0,
@@ -121,7 +121,7 @@
       {
         "nombre": "LM ALMADA",
         "numero": 1,
-        "configuracion": "TC/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/D7/D7/D7/D7/D7",
+        "configuracion": "A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/TC/A3/A3/A3/A3/A3/D7/D7/D7/D7/D7",
         "mensalidade_eur": 946.77,
         "TC": 1,
         "A1": 0,
@@ -136,7 +136,7 @@
       {
         "nombre": "LM ALMADA PALETS (nuevo)",
         "numero": 2,
-        "configuracion": "TC/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL",
+        "configuracion": "BL/BL/ BL/BL/BL/BL/BL/BL/BL/BL/TC/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL",
         "mensalidade_eur": 3048.7,
         "TC": 1,
         "A1": 0,
@@ -162,7 +162,7 @@
       {
         "nombre": "LM ALTA DE LISBOA EXTERIOR",
         "numero": 16,
-        "configuracion": "1/A3/A3/A3/TC/A3/A3/D7",
+        "configuracion": "A1/A3/A3/A3/TC/A3/A3/D7",
         "mensalidade_eur": 260.56,
         "TC": 1,
         "A1": 1,
@@ -229,7 +229,7 @@
       {
         "nombre": "LM AMADORA EXTERIOR",
         "numero": 3,
-        "configuracion": "1/1/1/1/1/1/3/3/3 TC/3/3/3/3/3/3/3/3/3/7",
+        "configuracion": "A1/A1/A1/A1/A1/A1/A3/A3/A3/TC/A3/A3/A3/A3/A3/A3/A3/A3/A3/D7",
         "mensalidade_eur": 545.23,
         "TC": 1,
         "A1": 6,
@@ -259,7 +259,7 @@
       {
         "nombre": "LM AMADORA PALETS B (NUEVO)",
         "numero": 5,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "TC/BL/BL/BL/BL/BL/BL",
         "mensalidade_eur": 1109.98,
         "TC": 1,
         "A1": 0,
@@ -285,7 +285,7 @@
       {
         "nombre": "LM AVEIRO",
         "numero": 28,
-        "configuracion": "A1/A1/A3/A3/A3/A3/TC/D7/D7/BL/BL/BL/BL",
+        "configuracion": "A1/A1/A3/A3/A3A3/A3/A3/A3/TC/D7/D7/BL/BL/BL/BL/BL/BL/BL/BL",
         "mensalidade_eur": 1690.34,
         "TC": 1,
         "A1": 2,
@@ -337,7 +337,7 @@
       {
         "nombre": "LM BARREIRO",
         "numero": 57,
-        "configuracion": "A3/A3/TC/D7/D7 BL",
+        "configuracion": "A3/A3/A3/A3/A3/A3/TC/D7/D7  BL/BL/BL/BL",
         "mensalidade_eur": 893.97,
         "TC": 1,
         "A1": 0,
@@ -363,7 +363,7 @@
       {
         "nombre": "LM BRAGA EXTERIOR",
         "numero": 19,
-        "configuracion": "3/3/3/3/3/3/TC/1/1/7/7/7",
+        "configuracion": "A3/A3/A3/A3/A3/A3/TC/A1/A1/D7/D7/D7",
         "mensalidade_eur": 363.41,
         "TC": 1,
         "A1": 2,
@@ -430,7 +430,7 @@
       {
         "nombre": "LM CALDAS DA RAINHA",
         "numero": 14,
-        "configuracion": "BL/BL/BL/BL/1/1/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "configuracion": "BL/BL/BL/BL/BL/BL/BL/BL/1/1/TC/A3/A3/A3/A3/D7/D7/D7",
         "mensalidade_eur": 1424.94,
         "TC": 1,
         "A1": 2,
@@ -456,7 +456,7 @@
       {
         "nombre": "LM CARCAVELOS",
         "numero": 59,
-        "configuracion": "BL/A1/TC/A3/A3/D7/D7",
+        "configuracion": "BL/A1/A1/TC/A3/A3/A3//D7",
         "mensalidade_eur": 610.32,
         "TC": 1,
         "A1": 2,
@@ -482,7 +482,7 @@
       {
         "nombre": "LM CASCAIS",
         "numero": 56,
-        "configuracion": "A3/A3/TC/D7/D7",
+        "configuracion": "A1/A1/A3/A3/A3/A3/TC/D7/ D7/BL/BL/BL",
         "mensalidade_eur": 806.84,
         "TC": 1,
         "A1": 2,
@@ -508,7 +508,7 @@
       {
         "nombre": "LM CASTELO BRANCO",
         "numero": 54,
-        "configuracion": "A3/A3/TC/D7/D7",
+        "configuracion": "A1/A3/A3/A3/TC/D7/D7",
         "mensalidade_eur": 236.33,
         "TC": 1,
         "A1": 1,
@@ -523,7 +523,7 @@
       {
         "nombre": "LM CASTELO BRANCO PALETS",
         "numero": 55,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "TC/BL",
         "mensalidade_eur": 328.13,
         "TC": 1,
         "A1": 0,
@@ -549,7 +549,7 @@
       {
         "nombre": "LM CHAVES",
         "numero": 65,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "A3/TC/A1/D7",
         "mensalidade_eur": 310.47,
         "TC": 1,
         "A1": 1,
@@ -575,7 +575,7 @@
       {
         "nombre": "LM COIMBRA",
         "numero": 15,
-        "configuracion": "BL/BL/BL 3/3/3/3/3/3/3/3/3/TC/3/7/7/7/7/7/7",
+        "configuracion": "BL/BL/BL/BL/A3/A3/A3/A3/A3/A3/A3/A3/A3/TC/A3/A3/A3/D7/D7/D7/D7",
         "mensalidade_eur": 1174.05,
         "TC": 1,
         "A1": 0,
@@ -627,7 +627,7 @@
       {
         "nombre": "LM EVORA",
         "numero": 39,
-        "configuracion": "A3/A3/A3/TC/D7/D7/D7/BL/BL",
+        "configuracion": "A3/A3/A3/TC/D7/D7/D7/A3",
         "mensalidade_eur": 218.86,
         "TC": 1,
         "A1": 0,
@@ -642,7 +642,7 @@
       {
         "nombre": "LM EVORA PALETS",
         "numero": 40,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "TC/BL/BL/BL/BL/BL",
         "mensalidade_eur": 953.6,
         "TC": 1,
         "A1": 0,
@@ -668,7 +668,7 @@
       {
         "nombre": "LM FIGUEIRA DA FOZ",
         "numero": 52,
-        "configuracion": "A3/A3/TC/D7/D7",
+        "configuracion": "A3/A3/TC/D7/D7/D7/A1/A3",
         "mensalidade_eur": 318.03,
         "TC": 1,
         "A1": 1,
@@ -694,7 +694,7 @@
       {
         "nombre": "LM GAIA EXTERIOR",
         "numero": 21,
-        "configuracion": "A1/A1/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "configuracion": "A1/A1/A3/A3/A3/A3/TC/D7/D7/D7/D7/A1/A1/A3/A3",
         "mensalidade_eur": 486.34,
         "TC": 1,
         "A1": 4,
@@ -735,7 +735,7 @@
       {
         "nombre": "LM GONDOMAR",
         "numero": 23,
-        "configuracion": "A3/A3/A3/A3/TC/D7/D7/1/1 + 5 JAULAS",
+        "configuracion": "A3/A3/A3/A3/A3/A3/TC/A1/A1/D7/D7/A1/A1/JL/JL/JL/JL/JL",
         "mensalidade_eur": 489.77,
         "TC": 1,
         "A1": 4,
@@ -787,7 +787,7 @@
       {
         "nombre": "LM GUIMARAES EXTERIOR",
         "numero": 29,
-        "configuracion": "A1/A1/A3/TC/A3/A3/D7/D7",
+        "configuracion": "A1/A1/A3/TC/A3/A3/D7/D7/D7/A3",
         "mensalidade_eur": 332.17,
         "TC": 1,
         "A1": 2,
@@ -828,7 +828,7 @@
       {
         "nombre": "LM LEIRIA",
         "numero": 18,
-        "configuracion": "BL/BL/BL/BL/1/1/1/A3/A3/A3/A3/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "configuracion": "BL/BL/BL/BL/A1/A1/A1/A3/A3/A3/A3/A3/A3/TC/A3/A3/A3/A3/A3/D7/D7/D7/D7/A1/A1/A1",
         "mensalidade_eur": 1256.24,
         "TC": 1,
         "A1": 6,
@@ -906,7 +906,7 @@
       {
         "nombre": "LM MAFRA",
         "numero": 35,
-        "configuracion": "A1/A3/A3/TC/A3/A3/D7+D7+JAULA",
+        "configuracion": "JL/A1/A1/A3/TC/A3/A3/A3/D7",
         "mensalidade_eur": 303.69,
         "TC": 1,
         "A1": 2,
@@ -932,7 +932,7 @@
       {
         "nombre": "LM MAIA EXTERIOR",
         "numero": 12,
-        "configuracion": "A3/A3/A3/A3/A3/TC/D7/D7/D7/1/1/1/1",
+        "configuracion": "A3/A3/A3/A3/A3/TC/D7/D7/D7/A1/A1/A1/A1",
         "mensalidade_eur": 399.28,
         "TC": 1,
         "A1": 4,
@@ -947,7 +947,7 @@
       {
         "nombre": "LM MAIA PALETS",
         "numero": 13,
-        "configuracion": "TC/BL/BL/BL",
+        "configuracion": "TC/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/BL",
         "mensalidade_eur": 1891.79,
         "TC": 1,
         "A1": 0,
@@ -973,7 +973,7 @@
       {
         "nombre": "LM MATOSINHOS EXTERIOR",
         "numero": 60,
-        "configuracion": "A1/A1/A1/A1/A1/TC/A3/A3/A3/A3/A3/A3/A3/A3/D7/D7",
+        "configuracion": "A1/A1/A1/A1/A1/A1/A1/TC/A3/A3/A3/A3/A3/A3/A3/A3/A3/A3/D7/D7/D7/D7",
         "mensalidade_eur": 1089.5,
         "TC": 1,
         "A1": 7,
@@ -988,7 +988,7 @@
       {
         "nombre": "LM MATOSINHOS PALETS",
         "numero": 61,
-        "configuracion": "TC/BL/BL/BL/BL/BL/BL/BL/BL",
+        "configuracion": "BL/BL/BL/BL/BL/BL/BL/BL/BL/BL/TC/BL/BL/BL/BL",
         "mensalidade_eur": 2360.89,
         "TC": 1,
         "A1": 0,
@@ -1014,7 +1014,7 @@
       {
         "nombre": "LM MONTIJO",
         "numero": 36,
-        "configuracion": "A3/A3/A3/TC/D7/A1/A1",
+        "configuracion": "A3/A3/A3/TC/D7/A1/D7",
         "mensalidade_eur": 193.46,
         "TC": 1,
         "A1": 1,
@@ -1029,7 +1029,7 @@
       {
         "nombre": "LM MONTIJO PALETS",
         "numero": 37,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "A3/A3/D7/TC/BL/BL/BL/BL",
         "mensalidade_eur": 932.38,
         "TC": 1,
         "A1": 0,
@@ -1055,7 +1055,7 @@
       {
         "nombre": "LM OEIRAS",
         "numero": 49,
-        "configuracion": "A3/A3/A3/A3/TC/A1/D7/D7/D7",
+        "configuracion": "A3/A3/A3/A3/A3/TC/A1/A1/A1/D7",
         "mensalidade_eur": 366.96,
         "TC": 1,
         "A1": 3,
@@ -1081,7 +1081,7 @@
       {
         "nombre": "LM PENAFIEL",
         "numero": 31,
-        "configuracion": "A3/A3/TC/D7/D7/D7/D7/BL/BL",
+        "configuracion": "A3/A3/A3/A3/A3/A3/A3/TC/D7/D7/D7//A1/A1/A1/BL/BL",
         "mensalidade_eur": 743.38,
         "TC": 1,
         "A1": 3,
@@ -1107,7 +1107,7 @@
       {
         "nombre": "LM PONTA DELGADA",
         "numero": 58,
-        "configuracion": "A3/A3/TC/D7/D7",
+        "configuracion": "A3/A3/A3/A3/TC/D7",
         "mensalidade_eur": 248.16,
         "TC": 1,
         "A1": 0,
@@ -1133,7 +1133,7 @@
       {
         "nombre": "LM PORTIMAO EXTERIOR",
         "numero": 41,
-        "configuracion": "1/1/3/3/TC/3/3/7",
+        "configuracion": "A1/A1/A3/A3/TC/A3/A3/D7",
         "mensalidade_eur": 349.17,
         "TC": 1,
         "A1": 2,
@@ -1200,7 +1200,7 @@
       {
         "nombre": "LM  SANTA MARÍA DA FEIRA",
         "numero": 48,
-        "configuracion": "A1/A1/A3/TC/A3/D7",
+        "configuracion": "A1/A1/A1/TC/A3/A3/A3/D7/D7",
         "mensalidade_eur": 343.06,
         "TC": 1,
         "A1": 3,
@@ -1241,7 +1241,7 @@
       {
         "nombre": "LM SANTAREM PALETS",
         "numero": 26,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "BL/BL/BL/TC",
         "mensalidade_eur": 640.86,
         "TC": 1,
         "A1": 0,
@@ -1267,7 +1267,7 @@
       {
         "nombre": "LM SETUBAL",
         "numero": 24,
-        "configuracion": "2 JAULAS+4 BL A3/A3/A3/A3/A3/TC/D7/D7/D7/D7",
+        "configuracion": "BL/BL/BL/BL/BL/BL/JL/JL/BL/BL/BL/BL/A3/A3/A3/A3/A3/TC/D7/D7/D7/D7",
         "mensalidade_eur": 1844.83,
         "TC": 1,
         "A1": 0,
@@ -1293,7 +1293,7 @@
       {
         "nombre": "LM SINTRA",
         "numero": 10,
-        "configuracion": "4BL / 4 BL LM / 1/1/3/3/TC/3/3/3/3/3/3/3/7/7/7/7",
+        "configuracion": "A1/A1/A1/A3/A3/TC/A3/A3/A3/A3/A3/A3/A3/D7/D7/D7/D7",
         "mensalidade_eur": 522.85,
         "TC": 1,
         "A1": 3,
@@ -1308,7 +1308,7 @@
       {
         "nombre": "LM SINTRA PALETS",
         "numero": 11,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "BL/BL/ BL/BL/BL/BL/BL LM/BL LM/BL LM /BL LM/TC",
         "mensalidade_eur": 1109.95,
         "TC": 1,
         "A1": 0,
@@ -1386,7 +1386,7 @@
       {
         "nombre": "LM TORRES VEFRAS",
         "numero": 32,
-        "configuracion": "A1/A1/A3/A3/TC/A3/A3/D7",
+        "configuracion": "D7/A1/A1/A1/A1/A3/A3/TC/A3/A3/D7",
         "mensalidade_eur": 346.56,
         "TC": 1,
         "A1": 4,
@@ -1427,7 +1427,7 @@
       {
         "nombre": "LM VIANA DO CASTELO PALETS",
         "numero": 46,
-        "configuracion": "LOCKER NUEVO",
+        "configuracion": "TC/A1/A1/BL/BL/BL/BL",
         "mensalidade_eur": 891.2,
         "TC": 1,
         "A1": 2,
@@ -1453,7 +1453,7 @@
       {
         "nombre": "LM VISEU",
         "numero": 27,
-        "configuracion": "A1/A3/A3/A3/A3/TC/D7/D7/D7/BL/BL",
+        "configuracion": "A1/A3/A3/A3/A3/TC/D7/D7/D7/BL/BL/BL",
         "mensalidade_eur": 721.28,
         "TC": 1,
         "A1": 1,
