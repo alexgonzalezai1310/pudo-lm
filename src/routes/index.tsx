@@ -178,7 +178,7 @@ function Index() {
           </button>
           <div className="flex items-center gap-3">
             <div className="hidden sm:flex">
-              <BrandLogos size={26} gap={10} theme={mapTheme} />
+              <BrandLogos size={26} gap={10} />
             </div>
             <BrandText className="font-display text-lg font-bold tracking-tight md:text-xl" />
             <span className="hidden text-sm font-medium text-muted-foreground lg:inline">/ Red de Lockers</span>
