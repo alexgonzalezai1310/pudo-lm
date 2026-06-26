@@ -22,7 +22,7 @@ type Locker = {
   numero: number;
   configuracion: string;
   mensalidade_eur: number;
-  TC: number; A1: number; A3: number; D7: number; HT12: number; BL: number; BL_LM: number;
+  TC: number; A1: number; A3: number; D7: number; HT12: number; BL: number; JL: number; BL_LM: number;
   photo_file?: string | null;
   config_file?: string | null;
 };
@@ -44,6 +44,7 @@ const MODULE_LABELS: Record<string, string> = {
   D7: "D7 · Siete huecos",
   HT12: "HT12 · XL",
   BL: "BL · Palets",
+  JL: "JL · Jaula",
   BL_LM: "BL LM · Palets LM",
 };
 
@@ -391,7 +392,7 @@ function LockerPanel({
   onClose: () => void;
   onImageClick?: (src: string) => void;
 }) {
-  const modules = (["TC", "A1", "A3", "D7", "HT12", "BL", "BL_LM"] as const)
+  const modules = (["TC", "A1", "A3", "D7", "HT12", "BL", "JL", "BL_LM"] as const)
     .map((k) => ({ k, v: locker[k] }))
     .filter((m) => m.v > 0);
 

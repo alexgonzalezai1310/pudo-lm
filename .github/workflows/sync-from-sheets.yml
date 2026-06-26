@@ -17,14 +17,22 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Instalar dependencias Python
+        run: pip install pillow
+
       - name: Ejecutar script de sincronización
         run: python scripts/sync_lockers.py
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+
+      - name: Generar PNGs de configuración para nuevos lockers
+        run: python scripts/generate_config_png.py
 
       - name: Commit y push si hay cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/pudo_lockers_geo.json
+          git add public/pudo_lockers_geo.json public/locker_configs/
           git diff --staged --quiet && echo "Sin cambios" || (
             git commit -m "sync: actualiza lockers desde Google Sheets [skip ci]"
             git push
