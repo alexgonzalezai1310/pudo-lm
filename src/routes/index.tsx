@@ -38,13 +38,13 @@ type Location = {
 };
 
 const MODULE_LABELS: Record<string, string> = {
-  TC: "TC · Pantalla táctil",
-  A1: "A1 · Pequeño",
-  A3: "A3 · Mediano",
-  D7: "D7 · Grande",
+  TC: "TC · Unidad de control",
+  A1: "A1 · Un hueco",
+  A3: "A3 · Tres huecos",
+  D7: "D7 · Siete huecos",
   HT12: "HT12 · XL",
-  BL: "BL · Palet",
-  BL_LM: "BL LM · Palet LM",
+  BL: "BL · Palets",
+  BL_LM: "BL LM · Palets LM",
 };
 
 function lockerIconSvg() {
