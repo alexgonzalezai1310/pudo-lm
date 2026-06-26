@@ -19,7 +19,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALBUFEIRA_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALBUFEIRA_EXTERIOR_config.png"
+        "config_file": "33_LM_ALBUFEIRA_EXTERIOR.png"
       },
       {
         "nombre": "LM ALBUFEIRA PALETS",
@@ -34,7 +34,7 @@
         "BL": 2,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALBUFEIRA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALBUFEIRA_PALETS_config.png"
+        "config_file": "34_LM_ALBUFEIRA_PALETS.png"
       }
     ],
     "lat": 37.088241,
@@ -60,7 +60,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALFRAGIDE_EXTERIOR_A_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALFRAGIDE_EXTERIOR_A_config.png"
+        "config_file": "06_LM_ALFRAGIDE_EXTERIOR_A.png"
       },
       {
         "nombre": "LM ALFRAGIDE EXTERIOR B",
@@ -75,7 +75,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALFRAGIDE_EXTERIOR_B_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALFRAGIDE_EXTERIOR_B_config.png"
+        "config_file": "07_LM_ALFRAGIDE_EXTERIOR_B.png"
       },
       {
         "nombre": "LM ALFRAGIDE PALETS A",
@@ -90,7 +90,7 @@
         "BL": 0,
         "BL_LM": 15,
         "photo_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_A_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_A_config.png"
+        "config_file": "08_LM_ALFRAGIDE_PALETS_A.png"
       },
       {
         "nombre": "LM ALFRAGIDE PALETS B",
@@ -105,7 +105,7 @@
         "BL": 0,
         "BL_LM": 10,
         "photo_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_B_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_B_config.png"
+        "config_file": "09_LM_ALFRAGIDE_PALETS_B.png"
       }
     ],
     "lat": 38.7253934,
@@ -131,7 +131,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALMADA_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALMADA_config.png"
+        "config_file": "01_LM_ALMADA.png"
       },
       {
         "nombre": "LM ALMADA PALETS (nuevo)",
@@ -146,7 +146,7 @@
         "BL": 0,
         "BL_LM": 22,
         "photo_file": "LEROY_MERLIN_ALMADA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALMADA_PALETS_config.png"
+        "config_file": "02_LM_ALMADA_PALETS_nuevo.png"
       }
     ],
     "lat": 38.6590127,
@@ -172,7 +172,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALTA_DE_LISBOA_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALTA_DE_LISBOA_EXTERIOR_config.png"
+        "config_file": "16_LM_ALTA_DE_LISBOA_EXTERIOR.png"
       },
       {
         "nombre": "LM ALTA DE LISBOA PALET",
@@ -187,7 +187,7 @@
         "BL": 3,
         "BL_LM": 3,
         "photo_file": "LEROY_MERLIN_ALTA_DE_LISBOA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALTA_DE_LISBOA_PALETS_config.png"
+        "config_file": "17_LM_ALTA_DE_LISBOA_PALET.png"
       }
     ],
     "lat": 38.7077507,
@@ -213,7 +213,7 @@
         "BL": 3,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALVERCA_photo.jpg",
-        "config_file": "LEROY_MERLIN_ALVERCA_config.png"
+        "config_file": "53_LM_ALVERCA.png"
       }
     ],
     "lat": 38.8935253,
@@ -239,7 +239,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_AMADORA_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_AMADORA_EXTERIOR_config.png"
+        "config_file": "03_LM_AMADORA_EXTERIOR.png"
       },
       {
         "nombre": "LM AMADORA PALETS",
@@ -254,7 +254,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_AMADORA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_AMADORA_PALETS_config.png"
+        "config_file": "04_LM_AMADORA_PALETS.png"
       },
       {
         "nombre": "LM AMADORA PALETS B (NUEVO)",
@@ -269,7 +269,7 @@
         "BL": 6,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_AMADORA_PALETS_B_photo.jpg",
-        "config_file": "LEROY_MERLIN_AMADORA_PALETS_B_config.png"
+        "config_file": "05_LM_AMADORA_PALETS_B_NUEVO.png"
       }
     ],
     "lat": 38.7799012,
@@ -295,7 +295,7 @@
         "BL": 8,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_AVEIRO_photo.jpg",
-        "config_file": "LEROY_MERLIN_AVEIRO_config.png"
+        "config_file": "28_LM_AVEIRO.png"
       }
     ],
     "lat": 40.640496,
@@ -321,7 +321,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_BARCELOS_photo.jpg",
-        "config_file": "LEROY_MERLIN_BARCELOS_config.png"
+        "config_file": "43_LM_BARCELOS.png"
       }
     ],
     "lat": 41.5314496,
@@ -347,7 +347,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_BARREIRO_photo.jpg",
-        "config_file": "LEROY_MERLIN_BARREIRO_config.png"
+        "config_file": "57_LM_BARREIRO.png"
       }
     ],
     "lat": 38.5846486,
@@ -373,7 +373,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_BRAGA__EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_BRAGA__EXTERIOR_config.png"
+        "config_file": "19_LM_BRAGA_EXTERIOR.png"
       },
       {
         "nombre": "LM BRAGA PALETS",
@@ -388,7 +388,7 @@
         "BL": 6,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_BRAGA__PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_BRAGA__PALETS_config.png"
+        "config_file": "20_LM_BRAGA_PALETS.png"
       }
     ],
     "lat": 41.5467813,
@@ -414,7 +414,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_BRAGANCA_photo.png",
-        "config_file": "LEROY_MERLIN_BRAGANÇA_config.png"
+        "config_file": "51_LM_BRAGANCA.png"
       }
     ],
     "lat": 41.7882038,
@@ -440,7 +440,7 @@
         "BL": 8,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_CALDAS_DA_RAINHA_photo.jpg",
-        "config_file": "LEROY_MERLIN_CALDAS_DA_RAINHA_config.png"
+        "config_file": "14_LM_CALDAS_DA_RAINHA.png"
       }
     ],
     "lat": 39.4103384,
@@ -466,7 +466,7 @@
         "BL": 1,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_CARCAVELOS_photo.jpg",
-        "config_file": "LEROY_MERLIN_CARCAVELOS_config.png"
+        "config_file": "59_LM_CARCAVELOS.png"
       }
     ],
     "lat": 38.6948958,
@@ -492,7 +492,7 @@
         "BL": 3,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_CASCAIS_photo.jpg",
-        "config_file": "LEROY_MERLIN_CASCAIS_config.png"
+        "config_file": "56_LM_CASCAIS.png"
       }
     ],
     "lat": 38.7524629,
@@ -518,7 +518,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_CASTELO_BRANCO_photo.jpg",
-        "config_file": "LEROY_MERLIN_CASTELO_BRANCO_config.png"
+        "config_file": "54_LM_CASTELO_BRANCO.png"
       },
       {
         "nombre": "LM CASTELO BRANCO PALETS",
@@ -533,7 +533,7 @@
         "BL": 1,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_CASTELO_BRANCO_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_CASTELO_BRANCO_PALETS_config.png"
+        "config_file": "55_LM_CASTELO_BRANCO_PALETS.png"
       }
     ],
     "lat": 39.9767583,
@@ -559,7 +559,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_CHAVES_photo_new.png",
-        "config_file": "LEROY_MERLIN_CHAVES_config.png"
+        "config_file": "65_LM_CHAVES.png"
       }
     ],
     "lat": 41.7399003,
@@ -585,7 +585,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_COIMBRA_photo.jpg",
-        "config_file": "LEROY_MERLIN_COIMBRA_config.png"
+        "config_file": "15_LM_COIMBRA.png"
       }
     ],
     "lat": 40.2111931,
@@ -611,7 +611,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_COLOMBO_photo.jpg",
-        "config_file": "LEROY_MERLIN_COLOMBO_config.png"
+        "config_file": "62_LM_COLOMBO.png"
       }
     ],
     "lat": 38.7077507,
@@ -637,7 +637,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_EVORA_photo.jpg",
-        "config_file": "LEROY_MERLIN_EVORA_config.png"
+        "config_file": "39_LM_EVORA.png"
       },
       {
         "nombre": "LM EVORA PALETS",
@@ -652,7 +652,7 @@
         "BL": 5,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_EVORA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_EVORA_PALETS_config.png"
+        "config_file": "40_LM_EVORA_PALETS.png"
       }
     ],
     "lat": 38.5580852,
@@ -678,7 +678,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_FIGUEIRA_DA_FOZ_photo.jpg",
-        "config_file": "LEROY_MERLIN_FIGUEIRA_DA_FOZ_config.png"
+        "config_file": "52_LM_FIGUEIRA_DA_FOZ.png"
       }
     ],
     "lat": 40.1485808,
@@ -704,7 +704,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_GAIA_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_GAIA_EXTERIOR_config.png"
+        "config_file": "21_LM_GAIA_EXTERIOR.png"
       },
       {
         "nombre": "LM GAIA PALET",
@@ -719,7 +719,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_GAIA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_GAIA_PALETS_config.png"
+        "config_file": "22_LM_GAIA_PALET.png"
       }
     ],
     "lat": 41.1218863,
@@ -745,7 +745,7 @@
         "BL": 0,
         "BL_LM": 5,
         "photo_file": "LEROY_MERLIN_GONDOMAR_photo.jpg",
-        "config_file": "LEROY_MERLIN_GONDOMAR_config.png"
+        "config_file": "23_LM_GONDOMAR.png"
       }
     ],
     "lat": 41.1845394,
@@ -771,7 +771,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_GUARDA_photo.jpg",
-        "config_file": "LEROY_MERLIN_GUARDA_config.png"
+        "config_file": "44_LM_GUARDA.png"
       }
     ],
     "lat": 40.7046066,
@@ -797,7 +797,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_GUIMARAES_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_GUIMARAES_EXTERIOR_config.png"
+        "config_file": "29_LM_GUIMARAES_EXTERIOR.png"
       },
       {
         "nombre": "LM GUIMARAES PALET",
@@ -812,7 +812,7 @@
         "BL": 2,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_GUIMARAES_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_GUIMARAES_PALETS_config.png"
+        "config_file": "30_LM_GUIMARAES_PALET.png"
       }
     ],
     "lat": 41.4432013,
@@ -838,7 +838,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_LEIRIA_photo.jpg",
-        "config_file": "LEROY_MERLIN_LEIRIA_config.png"
+        "config_file": "18_LM_LEIRIA.png"
       }
     ],
     "lat": 39.7437902,
@@ -864,7 +864,7 @@
         "BL": 3,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_LOULE_photo.jpg",
-        "config_file": "LEROY_MERLIN_LOULE_config.png"
+        "config_file": "38_LM_LOULE.png"
       }
     ],
     "lat": 37.1008062,
@@ -890,7 +890,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_LOURES_photo.jpg",
-        "config_file": "LEROY_MERLIN_LOURES_config.png"
+        "config_file": "47_LM_LOURES.png"
       }
     ],
     "lat": 38.8308741,
@@ -916,7 +916,7 @@
         "BL": 0,
         "BL_LM": 1,
         "photo_file": "LEROY_MERLIN_MAFRA_photo.jpg",
-        "config_file": "LEROY_MERLIN_MAFRA_config.png"
+        "config_file": "35_LM_MAFRA.png"
       }
     ],
     "lat": 38.9369782,
@@ -942,7 +942,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MAIA_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_MAIA_EXTERIOR_config.png"
+        "config_file": "12_LM_MAIA_EXTERIOR.png"
       },
       {
         "nombre": "LM MAIA PALETS",
@@ -957,7 +957,7 @@
         "BL": 11,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MAIA_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_MAIA_PALETS_config.png"
+        "config_file": "13_LM_MAIA_PALETS.png"
       }
     ],
     "lat": 41.2356265,
@@ -983,7 +983,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MATOSINHOS_EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_MATOSINHOS_EXTERIOR_config.png"
+        "config_file": "60_LM_MATOSINHOS_EXTERIOR.png"
       },
       {
         "nombre": "LM MATOSINHOS PALETS",
@@ -998,7 +998,7 @@
         "BL": 14,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MATOSINHOS_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_MATOSINHOS_PALETS_config.png"
+        "config_file": "61_LM_MATOSINHOS_PALETS.png"
       }
     ],
     "lat": 41.2085448,
@@ -1024,7 +1024,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MONTIJO_photo.jpg",
-        "config_file": "LEROY_MERLIN_MONTIJO_config.png"
+        "config_file": "36_LM_MONTIJO.png"
       },
       {
         "nombre": "LM MONTIJO PALETS",
@@ -1039,7 +1039,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MONTIJO_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_MONTIJO_PALETS_config.png"
+        "config_file": "37_LM_MONTIJO_PALETS.png"
       }
     ],
     "lat": 38.7019407,
@@ -1065,7 +1065,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_OEIRAS_photo.jpg",
-        "config_file": "LEROY_MERLIN_OEIRAS_config.png"
+        "config_file": "49_LM_OEIRAS.png"
       }
     ],
     "lat": 38.6925777,
@@ -1091,7 +1091,7 @@
         "BL": 2,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_PENAFIEL_photo.jpg",
-        "config_file": "LEROY_MERLIN_PENAFIEL_config.png"
+        "config_file": "31_LM_PENAFIEL.png"
       }
     ],
     "lat": 41.2061892,
@@ -1117,7 +1117,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_PONTA_DELGADA_photo.jpg",
-        "config_file": "LEROY_MERLIN_PONTA_DELGADA_config.png"
+        "config_file": "58_LM_PONTA_DELGADA.png"
       }
     ],
     "lat": 37.7501572,
@@ -1143,7 +1143,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_PORTIMAO__EXTERIOR_photo.jpg",
-        "config_file": "LEROY_MERLIN_PORTIMAO__EXTERIOR_config.png"
+        "config_file": "41_LM_PORTIMAO_EXTERIOR.png"
       },
       {
         "nombre": "LM PORTIMAO PALETS",
@@ -1158,7 +1158,7 @@
         "BL": 7,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_PORTIMAO_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_PORTIMAO_PALETS_config.png"
+        "config_file": "42_LM_PORTIMAO_PALETS.png"
       }
     ],
     "lat": 37.1375808,
@@ -1184,7 +1184,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SACAVEM_photo.jpg",
-        "config_file": "LEROY_MERLIN_SACAVEM_config.png"
+        "config_file": "50_LM_SACAVEM.png"
       }
     ],
     "lat": 38.7959049,
@@ -1210,7 +1210,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SANTA_MARIA_DA_FEIRA_photo.jpg",
-        "config_file": "LEROY_MERLIN_SANTA_MARIA_DA_FEIRA_config.png"
+        "config_file": "48_LM_SANTA_MARÍA_DA_FEIRA.png"
       }
     ],
     "lat": 40.9254179,
@@ -1236,7 +1236,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SANTAREM_photo.jpg",
-        "config_file": "LEROY_MERLIN_SANTAREM_config.png"
+        "config_file": "25_LM_SANTAREM.png"
       },
       {
         "nombre": "LM SANTAREM PALETS",
@@ -1251,7 +1251,7 @@
         "BL": 3,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SANTAREM_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_SANTAREM_PALETS_config.png"
+        "config_file": "26_LM_SANTAREM_PALETS.png"
       }
     ],
     "lat": 39.2363637,
@@ -1277,7 +1277,7 @@
         "BL": 10,
         "BL_LM": 2,
         "photo_file": "LEROY_MERLIN_SETUBAL_photo.jpg",
-        "config_file": "LEROY_MERLIN_SETUBAL_config.png"
+        "config_file": "24_LM_SETUBAL.png"
       }
     ],
     "lat": 38.5241783,
@@ -1303,7 +1303,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SINTRA_photo_new.png",
-        "config_file": "LEROY_MERLIN_SINTRA_config.png"
+        "config_file": "10_LM_SINTRA.png"
       },
       {
         "nombre": "LM SINTRA PALETS",
@@ -1318,7 +1318,7 @@
         "BL": 6,
         "BL_LM": 4,
         "photo_file": "LEROY_MERLIN_SINTRA_PALETS_photo_new.png",
-        "config_file": "LEROY_MERLIN_SINTRA_PALETS_config.png"
+        "config_file": "11_LM_SINTRA_PALETS.png"
       }
     ],
     "lat": 38.8355446,
@@ -1344,7 +1344,7 @@
         "BL": 8,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_TELHEIRAS_photo.jpg",
-        "config_file": "LEROY_MERLIN_TELHEIRAS_config.png"
+        "config_file": "64_LM_TELHEIRAS.png"
       }
     ],
     "lat": 38.7077507,
@@ -1370,7 +1370,7 @@
         "BL": 2,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_TORRES_NOVAS_photo.jpg",
-        "config_file": "LEROY_MERLIN_TORRES_NOVAS_config.png"
+        "config_file": "63_LM_TORRES_NOVAS.png"
       }
     ],
     "lat": 39.47962,
@@ -1396,7 +1396,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_TORRES_VEDRAS_photo.jpg",
-        "config_file": "LEROY_MERLIN_TORRES_VEDRAS_config.png"
+        "config_file": "32_LM_TORRES_VEFRAS.png"
       }
     ],
     "lat": 39.0930856,
@@ -1422,7 +1422,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_VIANA_DO_CASTELO_photo.jpg",
-        "config_file": "LEROY_MERLIN_VIANA_DO_CASTELO_config.png"
+        "config_file": "45_LM_VIANA_DO_CASTELO.png"
       },
       {
         "nombre": "LM VIANA DO CASTELO PALETS",
@@ -1437,7 +1437,7 @@
         "BL": 4,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_VIANA_DO_CASTELO_PALETS_photo.jpg",
-        "config_file": "LEROY_MERLIN_VIANA_DO_CASTELO_PALETS_config.png"
+        "config_file": "46_LM_VIANA_DO_CASTELO_PALETS.png"
       }
     ],
     "lat": 41.6833513,
@@ -1463,7 +1463,7 @@
         "BL": 3,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_VISEU_photo.png",
-        "config_file": "LEROY_MERLIN_VISEU_config.png"
+        "config_file": "27_LM_VISEU.png"
       }
     ],
     "lat": 40.6712595,
