@@ -1,0 +1,31 @@
+name: Sync desde Google Sheets
+
+on:
+  repository_dispatch:
+    types: [sheets-updated]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ejecutar script de sincronización
+        run: python scripts/sync_lockers.py
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/pudo_lockers_geo.json
+          git diff --staged --quiet && echo "Sin cambios" || (
+            git commit -m "sync: actualiza lockers desde Google Sheets [skip ci]"
+            git push
+          )
