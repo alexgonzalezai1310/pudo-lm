@@ -22,6 +22,8 @@ jobs:
 
       - name: Ejecutar script de sincronización
         run: python scripts/sync_lockers.py
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
 
       - name: Generar PNGs de configuración para nuevos lockers
         run: python scripts/generate_config_png.py
