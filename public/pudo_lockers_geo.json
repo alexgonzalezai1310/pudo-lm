@@ -88,7 +88,7 @@
         "D7": 0,
         "HT12": 0,
         "BL": 0,
-        "BL_LM": 15,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_A_photo.jpg",
         "config_file": "08_LM_ALFRAGIDE_PALETS_A.png"
       },
@@ -103,7 +103,7 @@
         "D7": 0,
         "HT12": 0,
         "BL": 0,
-        "BL_LM": 10,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_B_photo.jpg",
         "config_file": "09_LM_ALFRAGIDE_PALETS_B.png"
       }
@@ -143,8 +143,8 @@
         "A3": 0,
         "D7": 0,
         "HT12": 0,
-        "BL": 0,
-        "BL_LM": 22,
+        "BL": 22,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALMADA_PALETS_photo.jpg",
         "config_file": "02_LM_ALMADA_PALETS_nuevo.png"
       }
@@ -184,8 +184,8 @@
         "A3": 0,
         "D7": 0,
         "HT12": 0,
-        "BL": 3,
-        "BL_LM": 3,
+        "BL": 6,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_ALTA_DE_LISBOA_PALETS_photo.jpg",
         "config_file": "17_LM_ALTA_DE_LISBOA_PALET.png"
       }
@@ -289,7 +289,7 @@
         "mensalidade_eur": 1690.34,
         "TC": 1,
         "A1": 2,
-        "A3": 7,
+        "A3": 5,
         "D7": 2,
         "HT12": 0,
         "BL": 8,
@@ -342,9 +342,9 @@
         "TC": 1,
         "A1": 0,
         "A3": 6,
-        "D7": 2,
+        "D7": 1,
         "HT12": 0,
-        "BL": 4,
+        "BL": 3,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_BARREIRO_photo.jpg",
         "config_file": "57_LM_BARREIRO.png"
@@ -433,7 +433,7 @@
         "configuracion": "BL/BL/BL/BL/BL/BL/BL/BL/1/1/TC/A3/A3/A3/A3/D7/D7/D7",
         "mensalidade_eur": 1424.94,
         "TC": 1,
-        "A1": 2,
+        "A1": 0,
         "A3": 4,
         "D7": 3,
         "HT12": 0,
@@ -743,7 +743,7 @@
         "D7": 2,
         "HT12": 0,
         "BL": 0,
-        "BL_LM": 5,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_GONDOMAR_photo.jpg",
         "config_file": "23_LM_GONDOMAR.png"
       }
@@ -914,7 +914,7 @@
         "D7": 1,
         "HT12": 0,
         "BL": 0,
-        "BL_LM": 1,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_MAFRA_photo.jpg",
         "config_file": "35_LM_MAFRA.png"
       }
@@ -1275,7 +1275,7 @@
         "D7": 4,
         "HT12": 0,
         "BL": 10,
-        "BL_LM": 2,
+        "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SETUBAL_photo.jpg",
         "config_file": "24_LM_SETUBAL.png"
       }
