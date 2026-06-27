@@ -11,7 +11,6 @@ Requiere: variable de entorno GOOGLE_MAPS_API_KEY (solo para lockers nuevos)
 import json
 import re
 import urllib.request
-import urllib.parse
 import csv
 import io
 import sys
@@ -67,27 +66,33 @@ def slug_locker(nombre):
 
 def geocode_leroy_merlin(city, api_key):
     """
-    Busca 'Leroy Merlin CITY Portugal' en Google Maps Places Text Search.
-    Devuelve dict con lat, lng, direccion, ciudad, codigo_postal  o None si falla.
+    Busca 'Leroy Merlin CITY Portugal' usando Places API (New) Text Search.
+    Devuelve dict con lat, lng, direccion, ciudad, codigo_postal o None si falla.
     """
     query = f"Leroy Merlin {city} Portugal"
-    params = urllib.parse.urlencode({"query": query, "key": api_key, "language": "pt"})
-    url = f"https://maps.googleapis.com/maps/api/place/textsearch/json?{params}"
+    url = "https://places.googleapis.com/v1/places:searchText"
 
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    payload = json.dumps({"textQuery": query, "languageCode": "pt"}).encode("utf-8")
+    headers = {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": api_key,
+        "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.location",
+    }
+
+    req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
     with urllib.request.urlopen(req) as r:
         data = json.loads(r.read().decode("utf-8"))
 
-    if data.get("status") != "OK" or not data.get("results"):
-        print(f"  ⚠ Places API sin resultados para '{query}' (status: {data.get('status')})")
+    places = data.get("places", [])
+    if not places:
+        print(f"  ⚠ Places API sin resultados para '{query}'")
         return None
 
-    result = data["results"][0]
-    lat = result["geometry"]["location"]["lat"]
-    lng = result["geometry"]["location"]["lng"]
-    address = result.get("formatted_address", "")
+    result = places[0]
+    lat = result["location"]["latitude"]
+    lng = result["location"]["longitude"]
+    address = result.get("formattedAddress", "")
 
-    # Dirección format PT: "Rua X, 1234-567 Ciudad, Portugal"
     cp_match = re.search(r"(\d{4}-\d{3})\s+([^,]+)", address)
     ciudad = cp_match.group(2).strip() if cp_match else city.title()
     cp = cp_match.group(1) if cp_match else ""
