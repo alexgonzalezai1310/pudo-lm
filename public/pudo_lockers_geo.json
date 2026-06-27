@@ -1533,5 +1533,32 @@
     ],
     "lat": 40.6712595,
     "lng": -7.9189377
+  },
+  {
+    "id": "LM FARO",
+    "tienda_oficial": "LEROY MERLIN Faro",
+    "direccion": "Av. Algarve 2",
+    "ciudad": "Loulé",
+    "codigo_postal": "8100-299",
+    "lat": 37.1012092,
+    "lng": -7.999691299999999,
+    "lockers": [
+      {
+        "nombre": "LM FARO",
+        "numero": 66,
+        "configuracion": "A3/TC/A3/A3/A3/JL/JL/D7/BL/BL",
+        "mensalidade_eur": 226.78,
+        "TC": 1,
+        "A1": 0,
+        "A3": 4,
+        "D7": 1,
+        "HT12": 0,
+        "BL": 2,
+        "BL_LM": 0,
+        "JL": 2,
+        "photo_file": "",
+        "config_file": "66_LM_FARO.png"
+      }
+    ]
   }
 ]
