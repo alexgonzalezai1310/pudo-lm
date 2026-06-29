@@ -327,7 +327,11 @@ def main():
     photos_dir = os.path.join(os.path.dirname(JSON_PATH), "locker_photos")
     if api_key:
         print("\nDescargando fotos desde Google Drive...")
-        drive_changed = download_drive_photos(api_key, stores, photos_dir)
+        try:
+            drive_changed = download_drive_photos(api_key, stores, photos_dir)
+        except Exception as e:
+            print(f"  ⚠ Error al descargar fotos de Drive (no es fatal): {e}")
+            drive_changed = False
     else:
         print("\n⚠ Sin GOOGLE_MAPS_API_KEY: descarga de fotos omitida")
         drive_changed = False
