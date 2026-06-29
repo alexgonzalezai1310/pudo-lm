@@ -1,20 +1,12 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-// Credenciales internas del equipo PUDO. Para sustituir por una API real más adelante,
-// reemplazar la función `validateCredentials` por una llamada al endpoint correspondiente.
-const VALID_CREDENTIALS: Array<{ email: string; password: string }> = [
-  { email: "admin@pudo.pt", password: "pudo2026" },
-  { email: "equipo@pudo.pt", password: "lockers" },
-];
+const ACCESS_PASSWORD = import.meta.env.VITE_ACCESS_PASSWORD ?? "pudo2026";
 
 const STORAGE_KEY = "pudo_auth";
 
 export async function validateCredentials(email: string, password: string): Promise<boolean> {
-  // Pequeño retardo artificial para simular llamada de red
   await new Promise((r) => setTimeout(r, 500));
-  return VALID_CREDENTIALS.some(
-    (c) => c.email.toLowerCase() === email.trim().toLowerCase() && c.password === password
-  );
+  return password === ACCESS_PASSWORD;
 }
 
 type AuthState = {
