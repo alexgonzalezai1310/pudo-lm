@@ -26,12 +26,12 @@ KNOWN_MODULES = {"TC", "A1", "A3", "D7", "HT12", "BL", "JL", "BL_LM"}
 
 
 def parse_config(config_str):
-    """Convierte 'A3/A3/TC/D7' en lista de nombres de módulo."""
+    """Convierte 'A3/A3/TC/D7/JL' en lista de nombres de módulo."""
     modules = []
     for part in str(config_str).split("/"):
         p = re.sub(r"\s+", " ", part.strip().upper())
         if p in ("BL LM", "BL_LM"):
-            modules.append("BL_LM")
+            modules.append("JL")  # BL LM era el nombre antiguo de Jaula (JL)
         elif p in KNOWN_MODULES:
             modules.append(p)
     return modules
@@ -46,7 +46,7 @@ def scale_to_height(img, height):
 def generate_montage(modules):
     images = []
     for mod in modules:
-        render_name = "BL.png" if mod == "BL_LM" else f"{mod}.png"
+        render_name = f"{mod}.png"
         render_path = RENDERS_DIR / render_name
         if not render_path.exists():
             print(f"  ⚠ Sin render para módulo {mod}, omitido")
