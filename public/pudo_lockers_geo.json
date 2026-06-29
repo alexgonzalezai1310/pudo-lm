@@ -1198,7 +1198,7 @@
     "codigo_postal": "4520-192",
     "lockers": [
       {
-        "nombre": "LM  SANTA MARÍA DA FEIRA",
+        "nombre": "LM SANTA MARIA DA FEIRA",
         "numero": 48,
         "configuracion": "A1/A1/A1/TC/A3/A3/A3/D7/D7",
         "mensalidade_eur": 343.06,
@@ -1210,7 +1210,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_SANTA_MARIA_DA_FEIRA_photo.jpg",
-        "config_file": "48_LM_SANTA_MARÍA_DA_FEIRA.png"
+        "config_file": "48_LM_SANTA_MARIA_DA_FEIRA.png"
       }
     ],
     "lat": 40.9254179,
@@ -1384,7 +1384,7 @@
     "codigo_postal": "2560-628",
     "lockers": [
       {
-        "nombre": "LM TORRES VEFRAS",
+        "nombre": "LM TORRES VEDRAS",
         "numero": 32,
         "configuracion": "D7/A1/A1/A1/A1/A3/A3/TC/A3/A3/D7",
         "mensalidade_eur": 346.56,
@@ -1396,7 +1396,7 @@
         "BL": 0,
         "BL_LM": 0,
         "photo_file": "LEROY_MERLIN_TORRES_VEDRAS_photo.jpg",
-        "config_file": "32_LM_TORRES_VEFRAS.png"
+        "config_file": "32_LM_TORRES_VEDRAS.png"
       }
     ],
     "lat": 39.0930856,
