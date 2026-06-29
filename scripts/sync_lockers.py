@@ -181,10 +181,20 @@ def main():
     added = 0
     pending_geocode = []  # nuevos sin API key
 
+    configs_dir = os.path.join(os.path.dirname(JSON_PATH), "locker_configs")
+
     for key, entry in sheet_data.items():
         if key in locker_map:
             # Actualizar locker existente
             locker = locker_map[key]
+            # Si la configuración cambió, borrar PNG para que se regenere
+            if locker.get("configuracion", "") != entry["configuracion"]:
+                config_file = locker.get("config_file", "")
+                if config_file:
+                    png_path = os.path.join(configs_dir, config_file)
+                    if os.path.exists(png_path):
+                        os.remove(png_path)
+                        print(f"  ↻ Config cambiada, PNG eliminado para regenerar: {config_file}")
             locker["configuracion"] = entry["configuracion"]
             locker["mensalidade_eur"] = entry["cuota"]
             modules = parse_modules(entry["configuracion"])
