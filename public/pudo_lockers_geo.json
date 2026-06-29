@@ -1546,7 +1546,7 @@
       {
         "nombre": "LM FARO",
         "numero": 66,
-        "configuracion": "A1/A1/A1/A3/A3/A3/TC/BL/BL/D7/D7/JL/JL",
+        "configuracion": "A1/A1/A1/A3/A3/A3/TC/BL/BL/D7/D7/JL/JL/JL",
         "mensalidade_eur": 502.76,
         "TC": 1,
         "A1": 3,
@@ -1555,7 +1555,7 @@
         "HT12": 0,
         "BL": 2,
         "BL_LM": 0,
-        "JL": 2,
+        "JL": 3,
         "photo_file": "",
         "config_file": "66_LM_FARO.png"
       }
