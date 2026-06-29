@@ -18,7 +18,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALBUFEIRA_EXTERIOR_photo.jpg",
+        "photo_file": "LM_ALBUFEIRA_EXTERIOR.jpg",
         "config_file": "33_LM_ALBUFEIRA_EXTERIOR.png",
         "JL": 0
       },
@@ -34,7 +34,7 @@
         "HT12": 0,
         "BL": 2,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALBUFEIRA_PALETS_photo.jpg",
+        "photo_file": "LM_ALBUFEIRA_PALETS.jpg",
         "config_file": "34_LM_ALBUFEIRA_PALETS.png",
         "JL": 0
       }
@@ -61,7 +61,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALFRAGIDE_EXTERIOR_A_photo.jpg",
+        "photo_file": "LM_ALFRAGIDE_EXTERIOR_A.jpg",
         "config_file": "06_LM_ALFRAGIDE_EXTERIOR_A.png",
         "JL": 0
       },
@@ -77,7 +77,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALFRAGIDE_EXTERIOR_B_photo.jpg",
+        "photo_file": "LM_ALFRAGIDE_EXTERIOR_B.jpg",
         "config_file": "07_LM_ALFRAGIDE_EXTERIOR_B.png",
         "JL": 0
       },
@@ -93,7 +93,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_A_photo.jpg",
+        "photo_file": "LM_ALFRAGIDE_PALETS_A.jpg",
         "config_file": "08_LM_ALFRAGIDE_PALETS_A.png",
         "JL": 15
       },
@@ -109,7 +109,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALFRAGIDE_PALETS_B_photo.jpg",
+        "photo_file": "LM_ALFRAGIDE_PALETS_B.jpg",
         "config_file": "09_LM_ALFRAGIDE_PALETS_B.png",
         "JL": 10
       }
@@ -136,7 +136,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALMADA_photo.jpg",
+        "photo_file": "LM_ALMADA.jpg",
         "config_file": "01_LM_ALMADA.png",
         "JL": 0
       },
@@ -152,7 +152,7 @@
         "HT12": 0,
         "BL": 22,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALMADA_PALETS_photo.jpg",
+        "photo_file": "LM_ALMADA_PALETS_NUEVO.jpg",
         "config_file": "02_LM_ALMADA_PALETS_nuevo.png",
         "JL": 0
       }
@@ -179,7 +179,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALTA_DE_LISBOA_EXTERIOR_photo.jpg",
+        "photo_file": "LM_ALTA_DE_LISBOA_EXTERIOR.jpg",
         "config_file": "16_LM_ALTA_DE_LISBOA_EXTERIOR.png",
         "JL": 0
       },
@@ -195,7 +195,7 @@
         "HT12": 0,
         "BL": 6,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALTA_DE_LISBOA_PALETS_photo.jpg",
+        "photo_file": "LM_ALTA_DE_LISBOA_PALET.jpg",
         "config_file": "17_LM_ALTA_DE_LISBOA_PALET.png",
         "JL": 0
       }
@@ -222,7 +222,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_ALVERCA_photo.jpg",
+        "photo_file": "LM_ALVERCA.jpg",
         "config_file": "53_LM_ALVERCA.png",
         "JL": 0
       }
@@ -249,7 +249,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_AMADORA_EXTERIOR_photo.jpg",
+        "photo_file": "LM_AMADORA_EXTERIOR.jpg",
         "config_file": "03_LM_AMADORA_EXTERIOR.png",
         "JL": 0
       },
@@ -265,7 +265,7 @@
         "HT12": 0,
         "BL": 4,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_AMADORA_PALETS_photo.jpg",
+        "photo_file": "LM_AMADORA_PALETS.jpg",
         "config_file": "04_LM_AMADORA_PALETS.png",
         "JL": 0
       },
@@ -281,7 +281,7 @@
         "HT12": 0,
         "BL": 6,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_AMADORA_PALETS_B_photo.jpg",
+        "photo_file": "LM_AMADORA_PALETS_B_NUEVO.jpg",
         "config_file": "05_LM_AMADORA_PALETS_B_NUEVO.png",
         "JL": 0
       }
@@ -308,7 +308,7 @@
         "HT12": 0,
         "BL": 8,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_AVEIRO_photo.jpg",
+        "photo_file": "LM_AVEIRO.jpg",
         "config_file": "28_LM_AVEIRO.png",
         "JL": 0
       }
@@ -335,7 +335,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_BARCELOS_photo.jpg",
+        "photo_file": "LM_BARCELOS.jpg",
         "config_file": "43_LM_BARCELOS.png",
         "JL": 0
       }
@@ -362,7 +362,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_BARREIRO_photo.jpg",
+        "photo_file": "LM_BARREIRO.jpg",
         "config_file": "57_LM_BARREIRO.png",
         "JL": 0
       }
@@ -389,7 +389,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_BRAGA__EXTERIOR_photo.jpg",
+        "photo_file": "LM_BRAGA_EXTERIOR.jpg",
         "config_file": "19_LM_BRAGA_EXTERIOR.png",
         "JL": 0
       },
@@ -405,7 +405,7 @@
         "HT12": 0,
         "BL": 6,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_BRAGA__PALETS_photo.jpg",
+        "photo_file": "LM_BRAGA_PALETS.jpg",
         "config_file": "20_LM_BRAGA_PALETS.png",
         "JL": 0
       }
@@ -432,7 +432,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_BRAGANCA_photo.png",
+        "photo_file": "LM_BRAGANCA.png",
         "config_file": "51_LM_BRAGANCA.png",
         "JL": 0
       }
@@ -459,7 +459,7 @@
         "HT12": 0,
         "BL": 8,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CALDAS_DA_RAINHA_photo.jpg",
+        "photo_file": "LM_CALDAS_DA_RAINHA.jpg",
         "config_file": "14_LM_CALDAS_DA_RAINHA.png",
         "JL": 0
       }
@@ -486,7 +486,7 @@
         "HT12": 0,
         "BL": 1,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CARCAVELOS_photo.jpg",
+        "photo_file": "LM_CARCAVELOS.jpg",
         "config_file": "59_LM_CARCAVELOS.png",
         "JL": 0
       }
@@ -513,7 +513,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CASCAIS_photo.jpg",
+        "photo_file": "LM_CASCAIS.jpg",
         "config_file": "56_LM_CASCAIS.png",
         "JL": 0
       }
@@ -540,7 +540,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CASTELO_BRANCO_photo.jpg",
+        "photo_file": "LM_CASTELO_BRANCO.jpg",
         "config_file": "54_LM_CASTELO_BRANCO.png",
         "JL": 0
       },
@@ -556,7 +556,7 @@
         "HT12": 0,
         "BL": 1,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CASTELO_BRANCO_PALETS_photo.jpg",
+        "photo_file": "LM_CASTELO_BRANCO_PALETS.jpg",
         "config_file": "55_LM_CASTELO_BRANCO_PALETS.png",
         "JL": 0
       }
@@ -583,7 +583,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_CHAVES_photo_new.png",
+        "photo_file": "LM_CHAVES.png",
         "config_file": "65_LM_CHAVES.png",
         "JL": 0
       }
@@ -610,7 +610,7 @@
         "HT12": 0,
         "BL": 4,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_COIMBRA_photo.jpg",
+        "photo_file": "LM_COIMBRA.jpg",
         "config_file": "15_LM_COIMBRA.png",
         "JL": 0
       }
@@ -637,7 +637,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_COLOMBO_photo.jpg",
+        "photo_file": "LM_COLOMBO.jpg",
         "config_file": "62_LM_COLOMBO.png",
         "JL": 0
       }
@@ -664,7 +664,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_EVORA_photo.jpg",
+        "photo_file": "LM_EVORA.jpg",
         "config_file": "39_LM_EVORA.png",
         "JL": 0
       },
@@ -680,7 +680,7 @@
         "HT12": 0,
         "BL": 5,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_EVORA_PALETS_photo.jpg",
+        "photo_file": "LM_EVORA_PALETS.jpg",
         "config_file": "40_LM_EVORA_PALETS.png",
         "JL": 0
       }
@@ -707,7 +707,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_FIGUEIRA_DA_FOZ_photo.jpg",
+        "photo_file": "LM_FIGUEIRA_DA_FOZ.jpg",
         "config_file": "52_LM_FIGUEIRA_DA_FOZ.png",
         "JL": 0
       }
@@ -734,7 +734,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_GAIA_EXTERIOR_photo.jpg",
+        "photo_file": "LM_GAIA_EXTERIOR.jpg",
         "config_file": "21_LM_GAIA_EXTERIOR.png",
         "JL": 0
       },
@@ -750,7 +750,7 @@
         "HT12": 0,
         "BL": 4,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_GAIA_PALETS_photo.jpg",
+        "photo_file": "LM_GAIA_PALET.jpg",
         "config_file": "22_LM_GAIA_PALET.png",
         "JL": 0
       }
@@ -777,7 +777,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_GONDOMAR_photo.jpg",
+        "photo_file": "LM_GONDOMAR.jpg",
         "config_file": "23_LM_GONDOMAR.png",
         "JL": 5
       }
@@ -804,7 +804,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_GUARDA_photo.jpg",
+        "photo_file": "LM_GUARDA.jpg",
         "config_file": "44_LM_GUARDA.png",
         "JL": 0
       }
@@ -831,7 +831,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_GUIMARAES_EXTERIOR_photo.jpg",
+        "photo_file": "LM_GUIMARAES_EXTERIOR.jpg",
         "config_file": "29_LM_GUIMARAES_EXTERIOR.png",
         "JL": 0
       },
@@ -847,7 +847,7 @@
         "HT12": 0,
         "BL": 2,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_GUIMARAES_PALETS_photo.jpg",
+        "photo_file": "LM_GUIMARAES_PALET.jpg",
         "config_file": "30_LM_GUIMARAES_PALET.png",
         "JL": 0
       }
@@ -874,7 +874,7 @@
         "HT12": 0,
         "BL": 4,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_LEIRIA_photo.jpg",
+        "photo_file": "LM_LEIRIA.jpg",
         "config_file": "18_LM_LEIRIA.png",
         "JL": 0
       }
@@ -901,7 +901,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_LOULE_photo.jpg",
+        "photo_file": "LM_LOULE.jpg",
         "config_file": "38_LM_LOULE.png",
         "JL": 0
       }
@@ -928,7 +928,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_LOURES_photo.jpg",
+        "photo_file": "LM_LOURES.jpg",
         "config_file": "47_LM_LOURES.png",
         "JL": 0
       }
@@ -955,7 +955,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MAFRA_photo.jpg",
+        "photo_file": "LM_MAFRA.jpg",
         "config_file": "35_LM_MAFRA.png",
         "JL": 1
       }
@@ -982,7 +982,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MAIA_EXTERIOR_photo.jpg",
+        "photo_file": "LM_MAIA_EXTERIOR.jpg",
         "config_file": "12_LM_MAIA_EXTERIOR.png",
         "JL": 0
       },
@@ -998,7 +998,7 @@
         "HT12": 0,
         "BL": 11,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MAIA_PALETS_photo.jpg",
+        "photo_file": "LM_MAIA_PALETS.jpg",
         "config_file": "13_LM_MAIA_PALETS.png",
         "JL": 0
       }
@@ -1025,7 +1025,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MATOSINHOS_EXTERIOR_photo.jpg",
+        "photo_file": "LM_MATOSINHOS_EXTERIOR.jpg",
         "config_file": "60_LM_MATOSINHOS_EXTERIOR.png",
         "JL": 0
       },
@@ -1041,7 +1041,7 @@
         "HT12": 0,
         "BL": 14,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MATOSINHOS_PALETS_photo.jpg",
+        "photo_file": "LM_MATOSINHOS_PALETS.jpg",
         "config_file": "61_LM_MATOSINHOS_PALETS.png",
         "JL": 0
       }
@@ -1068,7 +1068,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MONTIJO_photo.jpg",
+        "photo_file": "LM_MONTIJO.jpg",
         "config_file": "36_LM_MONTIJO.png",
         "JL": 0
       },
@@ -1084,7 +1084,7 @@
         "HT12": 0,
         "BL": 4,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_MONTIJO_PALETS_photo.jpg",
+        "photo_file": "LM_MONTIJO_PALETS.jpg",
         "config_file": "37_LM_MONTIJO_PALETS.png",
         "JL": 0
       }
@@ -1111,7 +1111,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_OEIRAS_photo.jpg",
+        "photo_file": "LM_OEIRAS.jpg",
         "config_file": "49_LM_OEIRAS.png",
         "JL": 0
       }
@@ -1138,7 +1138,7 @@
         "HT12": 0,
         "BL": 2,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_PENAFIEL_photo.jpg",
+        "photo_file": "LM_PENAFIEL.jpg",
         "config_file": "31_LM_PENAFIEL.png",
         "JL": 0
       }
@@ -1165,7 +1165,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_PONTA_DELGADA_photo.jpg",
+        "photo_file": "LM_PONTA_DELGADA.jpg",
         "config_file": "58_LM_PONTA_DELGADA.png",
         "JL": 0
       }
@@ -1192,7 +1192,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_PORTIMAO__EXTERIOR_photo.jpg",
+        "photo_file": "LM_PORTIMAO_EXTERIOR.jpg",
         "config_file": "41_LM_PORTIMAO_EXTERIOR.png",
         "JL": 0
       },
@@ -1208,7 +1208,7 @@
         "HT12": 0,
         "BL": 7,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_PORTIMAO_PALETS_photo.jpg",
+        "photo_file": "LM_PORTIMAO_PALETS.jpg",
         "config_file": "42_LM_PORTIMAO_PALETS.png",
         "JL": 0
       }
@@ -1235,7 +1235,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_SACAVEM_photo.jpg",
+        "photo_file": "LM_SACAVEM.jpg",
         "config_file": "50_LM_SACAVEM.png",
         "JL": 0
       }
@@ -1289,7 +1289,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_SANTAREM_photo.jpg",
+        "photo_file": "LM_SANTAREM.jpg",
         "config_file": "25_LM_SANTAREM.png",
         "JL": 0
       },
@@ -1305,7 +1305,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_SANTAREM_PALETS_photo.jpg",
+        "photo_file": "LM_SANTAREM_PALETS.jpg",
         "config_file": "26_LM_SANTAREM_PALETS.png",
         "JL": 0
       }
@@ -1332,7 +1332,7 @@
         "HT12": 0,
         "BL": 10,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_SETUBAL_photo.jpg",
+        "photo_file": "LM_SETUBAL.jpg",
         "config_file": "24_LM_SETUBAL.png",
         "JL": 2
       }
@@ -1359,7 +1359,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_SINTRA_photo_new.png",
+        "photo_file": "LM_SINTRA.png",
         "config_file": "10_LM_SINTRA.png",
         "JL": 0
       },
@@ -1375,7 +1375,7 @@
         "HT12": 0,
         "BL": 6,
         "BL_LM": 4,
-        "photo_file": "LEROY_MERLIN_SINTRA_PALETS_photo_new.png",
+        "photo_file": "LM_SINTRA_PALETS.png",
         "config_file": "11_LM_SINTRA_PALETS.png",
         "JL": 0
       }
@@ -1402,7 +1402,7 @@
         "HT12": 0,
         "BL": 8,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_TELHEIRAS_photo.jpg",
+        "photo_file": "LM_TELHEIRAS.jpg",
         "config_file": "64_LM_TELHEIRAS.png",
         "JL": 0
       }
@@ -1429,7 +1429,7 @@
         "HT12": 0,
         "BL": 2,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_TORRES_NOVAS_photo.jpg",
+        "photo_file": "LM_TORRES_NOVAS.jpg",
         "config_file": "63_LM_TORRES_NOVAS.png",
         "JL": 0
       }
@@ -1483,7 +1483,7 @@
         "HT12": 0,
         "BL": 0,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_VIANA_DO_CASTELO_photo.jpg",
+        "photo_file": "LM_VIANA_DO_CASTELO.jpg",
         "config_file": "45_LM_VIANA_DO_CASTELO.png",
         "JL": 0
       },
@@ -1499,7 +1499,7 @@
         "HT12": 0,
         "BL": 4,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_VIANA_DO_CASTELO_PALETS_photo.jpg",
+        "photo_file": "LM_VIANA_DO_CASTELO_PALETS.jpg",
         "config_file": "46_LM_VIANA_DO_CASTELO_PALETS.png",
         "JL": 0
       }
@@ -1526,7 +1526,7 @@
         "HT12": 0,
         "BL": 3,
         "BL_LM": 0,
-        "photo_file": "LEROY_MERLIN_VISEU_photo.png",
+        "photo_file": "LM_VISEU.png",
         "config_file": "27_LM_VISEU.png",
         "JL": 0
       }
