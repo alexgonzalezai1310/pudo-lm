@@ -11,14 +11,19 @@ Requiere: variable de entorno GOOGLE_MAPS_API_KEY (solo para lockers nuevos)
 import json
 import re
 import urllib.request
+import urllib.parse
 import csv
 import io
 import sys
 import os
+from datetime import datetime, timezone
+from pathlib import Path
 
 SHEET_ID = "18QZggXWtaeHGbqKJAiYY4cI3C03Ft7Ga4QZerm1q4UE"
 SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv"
 JSON_PATH = os.path.join(os.path.dirname(__file__), "..", "public", "pudo_lockers_geo.json")
+DRIVE_FOLDER_ID = "18jajWrFm1y2TzCpDBLwtcZgMHdIykFsO"
+IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
 # Palabras que indican sufijo en el nombre del locker (no forman parte de la ciudad)
 SUFFIX_WORDS = {"EXTERIOR", "PALETS", "PALET", "COMPACT", "NUEVO", "GRANDE"}
@@ -126,6 +131,83 @@ def find_or_create_store(stores, city, geo):
     stores.append(new_store)
     print(f"  + Tienda nueva: {new_store['tienda_oficial']} ({geo['lat']:.6f}, {geo['lng']:.6f})")
     return new_store
+
+
+def file_slug(filename):
+    """'LM_PORTO.jpg' → 'LM_PORTO'"""
+    stem = os.path.splitext(filename)[0]
+    s = re.sub(r"[\s\-]+", "_", stem.strip().upper())
+    return re.sub(r"[^A-Z0-9_]", "", s)
+
+
+def download_drive_photos(api_key, stores, photos_dir):
+    """
+    Lista imágenes en la carpeta de Drive compartida y descarga las que coincidan
+    con un locker por slug del nombre de archivo (p.ej. LM_PORTO.jpg → locker 'LM PORTO').
+    Actualiza photo_file en el JSON y devuelve True si hubo cambios.
+    """
+    photos_path = Path(photos_dir)
+    photos_path.mkdir(exist_ok=True)
+
+    # Mapa slug → locker
+    slug_map = {}
+    for store in stores:
+        for locker in store["lockers"]:
+            slug_map[slug_locker(locker["nombre"])] = locker
+
+    # Listar archivos en la carpeta de Drive (no en papelera)
+    q = urllib.parse.quote(f"'{DRIVE_FOLDER_ID}' in parents and trashed=false")
+    fields = urllib.parse.quote("files(id,name,modifiedTime,mimeType)")
+    url = f"https://www.googleapis.com/drive/v3/files?q={q}&fields={fields}&key={api_key}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as r:
+        data = json.loads(r.read().decode("utf-8"))
+
+    images = [
+        f for f in data.get("files", [])
+        if os.path.splitext(f["name"])[1].lower() in IMAGE_EXTS
+    ]
+    print(f"  → {len(images)} imágenes en Google Drive")
+
+    downloaded = 0
+    json_changed = False
+
+    for f in images:
+        fslug = file_slug(f["name"])
+        locker = slug_map.get(fslug)
+        if not locker:
+            print(f"  ⚠ Sin locker para: {f['name']} (slug: {fslug})")
+            continue
+
+        ext = os.path.splitext(f["name"])[1].lower()
+        local_name = f"{fslug}{ext}"
+        local_path = photos_path / local_name
+
+        # Descargar si el archivo no existe o Drive tiene versión más nueva
+        should_download = True
+        if local_path.exists() and f.get("modifiedTime"):
+            drive_dt = datetime.fromisoformat(f["modifiedTime"].replace("Z", "+00:00"))
+            local_dt = datetime.fromtimestamp(local_path.stat().st_mtime, tz=timezone.utc)
+            if drive_dt <= local_dt:
+                should_download = False
+
+        if should_download:
+            dl_url = (
+                f"https://www.googleapis.com/drive/v3/files/{f['id']}"
+                f"?alt=media&key={api_key}"
+            )
+            dl_req = urllib.request.Request(dl_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(dl_req) as r:
+                local_path.write_bytes(r.read())
+            print(f"  ↓ {local_name}")
+            downloaded += 1
+
+        if locker.get("photo_file") != local_name:
+            locker["photo_file"] = local_name
+            json_changed = True
+
+    print(f"  → {downloaded} foto(s) descargada(s)/actualizada(s)")
+    return json_changed
 
 
 def fetch_sheet():
@@ -236,13 +318,22 @@ def main():
             locker_map[key] = new_locker
             added += 1
 
-    with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(stores, f, ensure_ascii=False, indent=2)
-
     print(f"  → {updated} actualizados, {added} nuevos añadidos")
     if pending_geocode:
         label = "sin GOOGLE_MAPS_API_KEY" if not api_key else "no geocodificados"
         print(f"  ⚠ Pendientes ({label}): {pending_geocode}")
+
+    # Descargar fotos desde Google Drive
+    photos_dir = os.path.join(os.path.dirname(JSON_PATH), "locker_photos")
+    if api_key:
+        print("\nDescargando fotos desde Google Drive...")
+        drive_changed = download_drive_photos(api_key, stores, photos_dir)
+    else:
+        print("\n⚠ Sin GOOGLE_MAPS_API_KEY: descarga de fotos omitida")
+        drive_changed = False
+
+    with open(JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(stores, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":

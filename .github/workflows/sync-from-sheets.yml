@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/pudo_lockers_geo.json public/locker_configs/
+          git add public/pudo_lockers_geo.json public/locker_configs/ public/locker_photos/
           git diff --staged --quiet && echo "Sin cambios" || (
             git commit -m "sync: actualiza lockers desde Google Sheets"
             git push
